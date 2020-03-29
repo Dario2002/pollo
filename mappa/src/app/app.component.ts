@@ -15,8 +15,17 @@ export class AppComponent {
   lnggatto: number = 9.1;
   latgatto: number = 45.5;
 
-
+  //  private icon =  {
+  //    url:'./assets/img/cat_acrobat.ico',
+  //    scaledSize: {
+  //      width: 60,
+  //      height: 60
+  //    }
+  //  };
 
 }
+
+
+
 
 
