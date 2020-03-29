@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'mappa';
+  title = 'server mappe';
+  //Aggiungiamo latitudine e longitudine di un luogo
+  lat: number = 45.506738;
+  lng: number = 9.190766;
 }
