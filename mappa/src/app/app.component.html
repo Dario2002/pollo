@@ -1,7 +1,25 @@
 {{title}}
-<!--Centriamo la mappa alle nostre coordinate-->
+
 <agm-map [latitude]="lat" [longitude]="lng">
-  <!--Mettiamo un marker alle nostre coordinate-->
-  <agm-marker [latitude]="lat" [longitude]="lng">
-  </agm-marker>
+
+  <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+  <agm-marker [latitude]="latcasa" [longitude]="lngcasa"></agm-marker>
+<!--  <agm-marker [latitude]="latgatto" [longitude]="lnggatto" [iconUrl]="icon"></agm-marker> -->
+
+
+
+<agm-circle [latitude]="lat" [longitude]="lng"
+    [radius]="5000"
+    [fillColor]="'red'">
+</agm-circle>
+
+<agm-circle [latitude]="latcasa" [longitude]="lngcasa"
+    [radius]="5000"
+    [fillColor]="'green'">
+</agm-circle>
+
+
+
 </agm-map>
+
+

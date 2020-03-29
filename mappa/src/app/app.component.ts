@@ -10,4 +10,13 @@ export class AppComponent {
   //Aggiungiamo latitudine e longitudine di un luogo
   lat: number = 45.506738;
   lng: number = 9.190766;
+  latcasa: number = 45.533758;
+  lngcasa: number = 9.145441;
+  lnggatto: number = 9.1;
+  latgatto: number = 45.5;
+
+
+
 }
+
+
