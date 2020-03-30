@@ -16,13 +16,19 @@ export class AppComponent {
   latgatto: number = 45.5;
 
     private icon =  {
-      url:'./assets/img/cat_acrobat.ico',
-     scaledSize: {
+        url:'./assets/img/cat_acrobat.ico',
+        scaledSize: {
         width: 60,
         height: 60
       }
     };
 
+
+  onClick()
+  {
+  console.log("fungo")
+
+  }
 }
 
 
