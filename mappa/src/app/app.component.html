@@ -4,8 +4,8 @@
 
   <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
   <agm-marker [latitude]="latcasa" [longitude]="lngcasa"></agm-marker>
-  <!--<agm-marker [latitude]="latgatto" [longitude]="lnggatto" [iconUrl]="icon"></agm-marker> -->
-
+  <!--<agm-marker [latitude]="latgatto" [longitude]="lnggatto" [iconUrl]="icon"></agm-marker>-->
+  <!--<agm-marker [latitude]="latgatto1" [longitude]="lnggatto1" [iconUrl]="icon1"></agm-marker>-->
 
 <agm-circle [latitude]="lat" [longitude]="lng"
     [radius]="5000"
@@ -17,8 +17,12 @@
     [fillColor]="'green'">
 </agm-circle>
 
+<agm-polygon [paths]="triangle" [fillColor]="'red'">
+</agm-polygon>
+
 </agm-map>
 
-<button (click)= "onClick()"> Cerchio </button>
+
+<button (click)= "onClick()"> Cerchio  </button>
 
 
