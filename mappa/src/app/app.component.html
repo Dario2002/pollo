@@ -1,9 +1,10 @@
 {{title}}
 
-<agm-map [latitude]="lat" [longitude]="lng">
+<agm-map [latitude]="lat" [longitude]="lng" [style.height.px]="height-120">
 
-  <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
-  <agm-marker [latitude]="latcasa" [longitude]="lngcasa"></agm-marker>
+  <agm-marker [latitude]="lat" [longitude]="lng" ></agm-marker>
+  <agm-marker [latitude]="latcasa" [longitude]="lngcasa" ></agm-marker>
+  <agm-marker *ngIf="chosen" [latitude]="latcirc" [longitude]="lngcirc" ></agm-marker>
   <!--<agm-marker [latitude]="latgatto" [longitude]="lnggatto" [iconUrl]="icon"></agm-marker>-->
   <!--<agm-marker [latitude]="latgatto1" [longitude]="lnggatto1" [iconUrl]="icon1"></agm-marker>-->
 
@@ -17,12 +18,17 @@
     [fillColor]="'green'">
 </agm-circle>
 
-<agm-polygon [paths]="triangle" [fillColor]="'red'">
-</agm-polygon>
+
 
 </agm-map>
 
+<br>
+<button (click)= "onClick()"> Cerchio </button>
+<br><br>
 
-<button (click)= "onClick()"> Cerchio  </button>
+<form [formGroup]="circuitoForm" (ngSubmit)="submit()">
+  <input class="form-control" id="name" placeholder="Inserisci il nome di un circuito" type="text" formControlName="nome" required>
+  &nbsp;
+  <button type="submit" class="btn btn-primary">Search</button>
 
-
+</form>
