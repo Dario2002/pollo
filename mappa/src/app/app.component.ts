@@ -18,12 +18,12 @@ export class AppComponent {
   //Aggiungiamo latitudine e longitudine di un luogo
   lng: number = Circuiti.lista[1].lng;
   lat: number = Circuiti.lista[1].lat;
-  latcasa: number = 45.533758;
-  lngcasa: number = 9.145441;
-  lnggatto: number = 9.1;
-  latgatto: number = 45.5;
-  latgatto1:number= 45.395480;
-  lnggatto1:number= 9.236814;
+  //latcasa: number = 45.533758;
+  //lngcasa: number = 9.145441;
+  //lnggatto: number = 9.1;
+  //latgatto: number = 45.5;
+  //latgatto1:number= 45.395480;
+  //lnggatto1:number= 9.236814;
 
   lngcirc;
   latcirc;

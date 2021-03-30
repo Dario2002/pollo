@@ -1,13 +1,14 @@
 {{title}}
 
-<agm-map [latitude]="lat" [longitude]="lng" [style.height.px]="height-120">
+<agm-map [latitude]="lat" [longitude]="lng" [style.height.px]="height-160">
 
-  <agm-marker [latitude]="lat" [longitude]="lng" ></agm-marker>
-  <agm-marker [latitude]="latcasa" [longitude]="lngcasa" ></agm-marker>
+  <!--<agm-marker [latitude]="lat" [longitude]="lng" ></agm-marker>-->
+  <!--<agm-marker [latitude]="latcasa" [longitude]="lngcasa" ></agm-marker>-->
+
   <agm-marker *ngIf="chosen" [latitude]="latcirc" [longitude]="lngcirc" ></agm-marker>
   <!--<agm-marker [latitude]="latgatto" [longitude]="lnggatto" [iconUrl]="icon"></agm-marker>-->
   <!--<agm-marker [latitude]="latgatto1" [longitude]="lnggatto1" [iconUrl]="icon1"></agm-marker>-->
-
+<!--
 <agm-circle [latitude]="lat" [longitude]="lng"
     [radius]="5000"
     [fillColor]="'red'">
@@ -18,7 +19,7 @@
     [fillColor]="'green'">
 </agm-circle>
 
-
+-->
 
 </agm-map>
 
