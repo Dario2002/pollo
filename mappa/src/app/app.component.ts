@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Circuiti } from '../assets/Circuiti'
+import { Piloti } from '../assets/Piloti'
 import { FormBuilder } from '@angular/forms';
 
 
@@ -15,9 +16,13 @@ export class AppComponent {
   height = window.innerHeight;
   title = 'server mappe';
   circuitoScelto;
+  pilotaScelto;
   //Aggiungiamo latitudine e longitudine di un luogo
   lng: number = Circuiti.lista[1].lng;
   lat: number = Circuiti.lista[1].lat;
+
+  //lng: number = Piloti.listaPil[1].lng;
+  //lat: number = Piloti.listaPil[1].lat;
   //latcasa: number = 45.533758;
   //lngcasa: number = 9.145441;
   //lnggatto: number = 9.1;
@@ -27,11 +32,19 @@ export class AppComponent {
 
   lngcirc;
   latcirc;
+  latpil;
+  lngpil;
   chosen: boolean = false;
+
 
   circuitoForm = this.formBuilder.group({
     nome: ''
   });
+
+  pilotaForm = this.formBuilder.group({
+    nome: ''
+  });
+
 
 constructor(private formBuilder: FormBuilder) {
 
@@ -66,6 +79,23 @@ constructor(private formBuilder: FormBuilder) {
     }
 
     this.circuitoForm.reset();
+
+  }
+
+    submit1() {
+    let data = this.pilotaForm.value;
+
+    let a;
+    for (a in Piloti.listaPil) {
+      if (Piloti.listaPil[a]['lastName'] == data.nome) {
+        this.pilotaScelto = Piloti.listaPil[a];
+        this.lngcirc = this.  pilotaScelto['lng'];
+        this.latcirc = this.pilotaScelto['lat'];
+        this.chosen = true;
+      }
+    }
+
+    this.pilotaForm.reset();
 
   }
 
