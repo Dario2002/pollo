@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Circuiti } from '../assets/Circuiti'
 import { Piloti } from '../assets/Piloti'
+import { Scuderie } from '../assets/Scuderie'
 import { FormBuilder } from '@angular/forms';
 
 
@@ -17,6 +18,7 @@ export class AppComponent {
   title = 'server mappe';
   circuitoScelto;
   pilotaScelto;
+  scuderiaScelto;
   //Aggiungiamo latitudine e longitudine di un luogo
   lng: number = Circuiti.lista[1].lng;
   lat: number = Circuiti.lista[1].lat;
@@ -34,6 +36,9 @@ export class AppComponent {
   latcirc;
   latpil;
   lngpil;
+  latscud;
+  lngscud;
+
   chosen: boolean = false;
 
 
@@ -44,6 +49,11 @@ export class AppComponent {
   pilotaForm = this.formBuilder.group({
     nome: ''
   });
+
+  scuderiaForm = this.formBuilder.group({
+    nome: ''
+  });
+
 
 
 constructor(private formBuilder: FormBuilder) {
@@ -96,6 +106,22 @@ constructor(private formBuilder: FormBuilder) {
     }
 
     this.pilotaForm.reset();
+
+  }
+    submit2() {
+    let data = this.scuderiaForm.value;
+
+    let a;
+    for (a in Scuderie.listascud) {
+      if (Scuderie.listascud[a]['Base'] == data.nome) {
+        this.scuderiaScelto = Circuiti.lista[a];
+        this.lngscud = this.scuderiaScelto['lng'];
+        this.latscud = this.scuderiaScelto['lat'];
+        this.chosen = true;
+      }
+    }
+
+    this.circuitoForm.reset();
 
   }
 
