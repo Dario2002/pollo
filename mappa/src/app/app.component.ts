@@ -27,8 +27,8 @@ export class AppComponent {
   //lat: number = Piloti.listaPil[1].lat;
   //latcasa: number = 45.533758;
   //lngcasa: number = 9.145441;
-  //lnggatto: number = 9.1;
-  //latgatto: number = 45.5;
+  lnggatto: number = 9.1;
+  latgatto: number = 45.5;
   //latgatto1:number= 45.395480;
   //lnggatto1:number= 9.236814;
 
@@ -39,6 +39,7 @@ export class AppComponent {
   latscud;
   lngscud;
 
+pilota:string;
   chosen: boolean = false;
 
 
@@ -60,15 +61,26 @@ constructor(private formBuilder: FormBuilder) {
 
 }
 
-    private icon =  {
-        url:'./assets/img/cat_acrobat.ico',
+    icon =  {
+        url:'',
         scaledSize: {
         width: 60,
         height: 60
       }
     };
-    private icon1 =  {
-        url:'./assets/img/cat_acrobat.ico',
+
+
+    iconPilota =  {
+        url:'',
+        scaledSize: {
+        width: 60,
+        height: 60
+      }
+    };
+
+
+    iconScuderia =  {
+        url:'',
         scaledSize: {
         width: 60,
         height: 60
@@ -93,37 +105,42 @@ constructor(private formBuilder: FormBuilder) {
   }
 
     submit1() {
-    let data = this.pilotaForm.value;
+        let data = this.pilotaForm.value;
 
-    let a;
-    for (a in Piloti.listaPil) {
-      if (Piloti.listaPil[a]['lastName'] == data.nome) {
-        this.pilotaScelto = Piloti.listaPil[a];
-        this.lngcirc = this.  pilotaScelto['lng'];
-        this.latcirc = this.pilotaScelto['lat'];
-        this.chosen = true;
-      }
+        let a;
+        for (a in Piloti.listaPil) {
+        if (Piloti.listaPil[a]['lastName'] == data.nome) {
+            this.pilotaScelto = Piloti.listaPil[a];
+            this.iconPilota['url']=`./assets/img/${this.pilotaScelto['lastName'].toLowerCase()}.png`;
+            this.lngpil = this.pilotaScelto['lng'];
+            this.latpil = this.pilotaScelto['lat'];
+            this.chosen = true;
+        }
+        }
+
+        this.pilotaForm.reset();
+
     }
 
-    this.pilotaForm.reset();
 
-  }
-    submit2() {
+  submit2() {
     let data = this.scuderiaForm.value;
 
     let a;
     for (a in Scuderie.listascud) {
-      if (Scuderie.listascud[a]['Base'] == data.nome) {
-        this.scuderiaScelto = Circuiti.lista[a];
+      if (Scuderie.listascud[a]['name'] == data.nome) {
+        this.scuderiaScelto = Scuderie.listascud[a];
+        this.iconScuderia['url']=`./assets/img/${this.scuderiaScelto['name'].toLowerCase()}.png`;
         this.lngscud = this.scuderiaScelto['lng'];
         this.latscud = this.scuderiaScelto['lat'];
         this.chosen = true;
       }
     }
 
-    this.circuitoForm.reset();
+    this.scuderiaForm.reset();
 
   }
+
 
 
   onClick()
