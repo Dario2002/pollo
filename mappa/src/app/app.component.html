@@ -7,7 +7,7 @@
             <!--<agm-marker [latitude]="lat" [longitude]="lng" ></agm-marker>-->
             <!--<agm-marker [latitude]="latcasa" [longitude]="lngcasa" ></agm-marker>-->
 
-            <agm-marker *ngIf="chosen" [latitude]="latcirc" [longitude]="lngcirc"  ></agm-marker>
+            <agm-marker *ngIf="chosen" [latitude]="latcirc" [longitude]="lngcirc" [iconUrl]="iconCircuito" ></agm-marker>
 
             <agm-marker *ngIf="chosen" [latitude]="latpil" [longitude]="lngpil" [iconUrl]="iconPilota" ></agm-marker>
 
@@ -34,7 +34,7 @@
 
         <div class="col-2">
         <br>
-            <button (click)= "onClick()"> Cerchio </button>
+            <label> RICERCHE </label>
             <br><br>
 
             <form [formGroup]="circuitoForm" (ngSubmit)="submit()">
@@ -53,7 +53,7 @@
 
             <br><br>
             <form [formGroup]="scuderiaForm" (ngSubmit)="submit2()">
-            <input class="form-control" id="Base" placeholder="Inserisci il nome di una scuderia" type="text" formControlName="nome" required>
+            <input class="form-control" id="name" placeholder="Inserisci il nome di una scuderia" type="text" formControlName="nome" required>
             &nbsp;
             <button type="submit" class="btn btn-primary">Search</button>
 
