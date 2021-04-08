@@ -3,7 +3,7 @@ export class Scuderie
 static listascud = [
   {
     "constructorId": 1,
-    "constructorRef": "Mercedes",
+    "constructorRef": "mercedes",
     "name": "Mercedes-AMG Petronas F1 Team",
     "firstTeamEntry": 1970,
     "Base": "Brackley",
@@ -13,7 +13,7 @@ static listascud = [
   },
   {
     "constructorId": 2,
-    "constructorRef": "Red Bull",
+    "constructorRef": "red bull",
     "name": "Red Bull Racing Honda",
     "firstTeamEntry": 1997,
     "Base": "Milton Keynes",
@@ -23,7 +23,7 @@ static listascud = [
   },
   {
     "constructorId": 3,
-    "constructorRef": "McLaren",
+    "constructorRef": "mclaren",
     "name": "McLaren F1 Team",
     "firstTeamEntry": 1966,
     "Base": "Woking",
@@ -33,7 +33,7 @@ static listascud = [
   },
   {
     "constructorId": 4,
-    "constructorRef": "Ferrari",
+    "constructorRef": "ferrari",
     "name": "Scuderia Mission Winnow Ferrari",
     "firstTeamEntry": 1950,
     "Base": "Maranello",
@@ -43,7 +43,7 @@ static listascud = [
   },
   {
     "constructorId": 5,
-    "constructorRef": "AlphaTauri",
+    "constructorRef": "alphatauri",
     "name": "Scuderia AlphaTauri Honda",
     "firstTeamEntry": 1985,
     "Base": "Faenza",
@@ -53,7 +53,7 @@ static listascud = [
   },
   {
     "constructorId": 6,
-    "constructorRef": "Aston Martin",
+    "constructorRef": "aston martin",
     "name": "Aston Martin Cognizant F1 Team",
     "firstTeamEntry": 2018,
     "Base": "Silverstone",
@@ -63,7 +63,7 @@ static listascud = [
   },
   {
     "constructorId": 7,
-    "constructorRef": "Alfa Romeo",
+    "constructorRef": "alfa romeo",
     "name": "Alfa Romeo Racing ORLEN",
     "firstTeamEntry": 1993,
     "Base": "Hinwil",
@@ -73,7 +73,7 @@ static listascud = [
   },
   {
     "constructorId": 8,
-    "constructorRef": "Alpine",
+    "constructorRef": "alpine",
     "name": "Alpine F1 Team",
     "firstTeamEntry": 1986,
     "Base": "Enstone",
@@ -83,7 +83,7 @@ static listascud = [
   },
   {
     "constructorId": 9,
-    "constructorRef": "Williams",
+    "constructorRef": "williams",
     "name": "Williams Racing",
     "firstTeamEntry": 1978,
     "Base": "Grove",
@@ -93,7 +93,7 @@ static listascud = [
   },
   {
     "constructorId": 10,
-    "constructorRef": "Haas",
+    "constructorRef": "haas",
     "name": "Uralkali Haas F1 Team",
     "firstTeamEntry": 2016,
     "Base": "Kannapolis",

@@ -3,8 +3,8 @@ export class Circuiti
 static lista=[
   {
     "circuitId": 1,
-    "circuitRef": "albert_park",
-    "name": "Albert Park Grand Prix Circuit",
+    "circuitRef": "albert park",
+    "name": "Albert Park Grand Prix Circuit", //
     "location": "Melbourne",
     "country": "Australia",
     "lat": -37.8497,
@@ -15,7 +15,7 @@ static lista=[
   {
     "circuitId": 2,
     "circuitRef": "sepang",
-    "name": "Sepang International Circuit",
+    "name": "Sepang International Circuit", //
     "location": "Kuala Lumpur",
     "country": "Malaysia",
     "lat": 2.76083,
@@ -26,7 +26,7 @@ static lista=[
   {
     "circuitId": 3,
     "circuitRef": "bahrain",
-    "name": "Bahrain International Circuit",
+    "name": "Bahrain International Circuit", //
     "location": "Sakhir",
     "country": "Bahrain",
     "lat": 26.0325,
@@ -37,7 +37,7 @@ static lista=[
   {
     "circuitId": 4,
     "circuitRef": "catalunya",
-    "name": "Circuit de Barcelona-Catalunya",
+    "name": "Circuit de Barcelona-Catalunya", //
     "location": "Montmeló",
     "country": "Spain",
     "lat": 41.57,
@@ -47,7 +47,7 @@ static lista=[
   },
   {
     "circuitId": 5,
-    "circuitRef": "istanbul",
+    "circuitRef": "istanbul", //
     "name": "Istanbul Park",
     "location": "Istanbul",
     "country": "Turkey",
@@ -58,7 +58,7 @@ static lista=[
   },
   {
     "circuitId": 6,
-    "circuitRef": "monaco",
+    "circuitRef": "monaco", //
     "name": "Circuit de Monaco",
     "location": "Monte-Carlo",
     "country": "Monaco",
@@ -69,7 +69,7 @@ static lista=[
   },
   {
     "circuitId": 7,
-    "circuitRef": "villeneuve",
+    "circuitRef": "villeneuve", //
     "name": "Circuit Gilles Villeneuve",
     "location": "Montreal",
     "country": "Canada",
@@ -80,7 +80,7 @@ static lista=[
   },
   {
     "circuitId": 8,
-    "circuitRef": "magny_cours",
+    "circuitRef": "magny cours",
     "name": "Circuit de Nevers Magny-Cours",
     "location": "Magny Cours",
     "country": "France",
@@ -91,7 +91,7 @@ static lista=[
   },
   {
     "circuitId": 9,
-    "circuitRef": "silverstone",
+    "circuitRef": "silverstone", //
     "name": "Silverstone Circuit",
     "location": "Silverstone",
     "country": "UK",
@@ -102,7 +102,7 @@ static lista=[
   },
   {
     "circuitId": 10,
-    "circuitRef": "hockenheimring",
+    "circuitRef": "hockenheimring", //
     "name": "Hockenheimring",
     "location": "Hockenheim",
     "country": "Germany",
@@ -113,7 +113,7 @@ static lista=[
   },
   {
     "circuitId": 11,
-    "circuitRef": "hungaroring",
+    "circuitRef": "hungaroring", //
     "name": "Hungaroring",
     "location": "Budapest",
     "country": "Hungary",
@@ -136,7 +136,7 @@ static lista=[
   {
     "circuitId": 13,
     "circuitRef": "spa",
-    "name": "Circuit de Spa-Francorchamps",
+    "name": "Circuit de Spa-Francorchamps", //
     "location": "Spa",
     "country": "Belgium",
     "lat": 50.4372,
@@ -146,7 +146,7 @@ static lista=[
   },
   {
     "circuitId": 14,
-    "circuitRef": "monza",
+    "circuitRef": "monza", //
     "name": "Autodromo Nazionale di Monza",
     "location": "Monza",
     "country": "Italy",
@@ -157,7 +157,7 @@ static lista=[
   },
   {
     "circuitId": 15,
-    "circuitRef": "marina_bay",
+    "circuitRef": "marina bay", //
     "name": "Marina Bay Street Circuit",
     "location": "Marina Bay",
     "country": "Singapore",
@@ -179,7 +179,7 @@ static lista=[
   },
   {
     "circuitId": 17,
-    "circuitRef": "shanghai",
+    "circuitRef": "shanghai", //
     "name": "Shanghai International Circuit",
     "location": "Shanghai",
     "country": "China",
@@ -190,7 +190,7 @@ static lista=[
   },
   {
     "circuitId": 18,
-    "circuitRef": "interlagos",
+    "circuitRef": "interlagos", //
     "name": "Autódromo José Carlos Pace",
     "location": "São Paulo",
     "country": "Brazil",
@@ -212,7 +212,7 @@ static lista=[
   },
   {
     "circuitId": 20,
-    "circuitRef": "nurburgring",
+    "circuitRef": "nurburgring", //
     "name": "Nürburgring",
     "location": "Nürburg",
     "country": "Germany",
@@ -223,7 +223,7 @@ static lista=[
   },
   {
     "circuitId": 21,
-    "circuitRef": "imola",
+    "circuitRef": "imola", //
     "name": "Autodromo Enzo e Dino Ferrari",
     "location": "Imola",
     "country": "Italy",
@@ -234,7 +234,7 @@ static lista=[
   },
   {
     "circuitId": 22,
-    "circuitRef": "suzuka",
+    "circuitRef": "suzuka", //
     "name": "Suzuka Circuit",
     "location": "Suzuka",
     "country": "Japan",
@@ -256,7 +256,7 @@ static lista=[
   },
   {
     "circuitId": 24,
-    "circuitRef": "yas_marina",
+    "circuitRef": "yas marina", //
     "name": "Yas Marina Circuit",
     "location": "Abu Dhabi",
     "country": "UAE",
@@ -345,7 +345,7 @@ static lista=[
   {
     "circuitId": 32,
     "circuitRef": "rodriguez",
-    "name": "Autódromo Hermanos Rodríguez",
+    "name": "Autódromo Hermanos Rodríguez", //
     "location": "Mexico City",
     "country": "Mexico",
     "lat": 19.4042,
@@ -366,7 +366,7 @@ static lista=[
   },
   {
     "circuitId": 34,
-    "circuitRef": "ricard",
+    "circuitRef": "ricard", //
     "name": "Circuit Paul Ricard",
     "location": "Le Castellet",
     "country": "France",
@@ -421,7 +421,7 @@ static lista=[
   },
   {
     "circuitId": 39,
-    "circuitRef": "zandvoort",
+    "circuitRef": "zandvoort", //
     "name": "Circuit Park Zandvoort",
     "location": "Zandvoort",
     "country": "Netherlands",
@@ -465,7 +465,7 @@ static lista=[
   },
   {
     "circuitId": 43,
-    "circuitRef": "long_beach",
+    "circuitRef": "long beach",
     "name": "Long Beach",
     "location": "California",
     "country": "USA",
@@ -476,7 +476,7 @@ static lista=[
   },
   {
     "circuitId": 44,
-    "circuitRef": "las_vegas",
+    "circuitRef": "las vegas",
     "name": "Las Vegas Street Circuit",
     "location": "Nevada",
     "country": "USA",
@@ -696,7 +696,7 @@ static lista=[
   },
   {
     "circuitId": 64,
-    "circuitRef": "ain-diab",
+    "circuitRef": "ain diab",
     "name": "Ain Diab",
     "location": "Casablanca",
     "country": "Morocco",
@@ -751,7 +751,7 @@ static lista=[
   },
   {
     "circuitId": 69,
-    "circuitRef": "americas",
+    "circuitRef": "americas", //
     "name": "Circuit of the Americas",
     "location": "Austin",
     "country": "USA",
@@ -762,7 +762,7 @@ static lista=[
   },
   {
     "circuitId": 70,
-    "circuitRef": "red_bull_ring",
+    "circuitRef": "red bull ring", //
     "name": "Red Bull Ring",
     "location": "Spielburg",
     "country": "Austria",
@@ -773,7 +773,7 @@ static lista=[
   },
   {
     "circuitId": 71,
-    "circuitRef": "sochi",
+    "circuitRef": "sochi", //
     "name": "Sochi Autodrom",
     "location": "Sochi",
     "country": "Russia",
@@ -784,7 +784,7 @@ static lista=[
   },
   {
     "circuitId": 72,
-    "circuitRef": "port_imperial",
+    "circuitRef": "port imperial",
     "name": "Port Imperial Street Circuit",
     "location": "New Jersey",
     "country": "USA",
@@ -795,7 +795,7 @@ static lista=[
   },
   {
     "circuitId": 73,
-    "circuitRef": "BAK",
+    "circuitRef": "bak", //
     "name": "Baku City Circuit",
     "location": "Baku",
     "country": "Azerbaijan",
@@ -817,7 +817,7 @@ static lista=[
   },
   {
     "circuitId": 75,
-    "circuitRef": "portimao",
+    "circuitRef": "portimao", //
     "name": "Autódromo Internacional do Algarve",
     "location": "Portimão",
     "country": "Portugal",
@@ -828,7 +828,7 @@ static lista=[
   },
   {
     "circuitId": 76,
-    "circuitRef": "mugello",
+    "circuitRef": "mugello", //
     "name": "Autodromo Internazionale del Mugello",
     "location": "Mugello",
     "country": "Italy",
@@ -836,6 +836,17 @@ static lista=[
     "lng": 11.3719,
     "alt": "\\N",
     "url": "http://en.wikipedia.org/wiki/Mugello_Circuit"
+  },
+  {
+    "circuitId": 77, //
+    "circuitRef": "jeddah",
+    "name": "Jeddah Street Circuit",
+    "location": "Jeddah",
+    "country": "Saudi Arabia",
+    "lat": 21.5433,
+    "lng": 39.1728,
+    "alt": "\\N",
+    "url": "http://en.wikipedia.org/wiki/Jeddah_Street_Circuit"
   }
 ]
 }

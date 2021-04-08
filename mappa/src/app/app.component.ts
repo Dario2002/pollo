@@ -27,8 +27,8 @@ export class AppComponent {
   //lat: number = Piloti.listaPil[1].lat;
   //latcasa: number = 45.533758;
   //lngcasa: number = 9.145441;
-  lnggatto: number = 9.1;
-  latgatto: number = 45.5;
+  //lnggatto: number = 9.1;
+  //latgatto: number = 45.5;
   //latgatto1:number= 45.395480;
   //lnggatto1:number= 9.236814;
 
@@ -64,8 +64,8 @@ constructor(private formBuilder: FormBuilder) {
     iconCircuito =  {
         url:'',
         scaledSize: {
-        width: 200,
-        height: 70
+        width: 150,
+        height: 60
       }
     };
 
@@ -73,8 +73,8 @@ constructor(private formBuilder: FormBuilder) {
     iconPilota =  {
         url:'',
         scaledSize: {
-        width: 60,
-        height: 60
+        width: 70,
+        height: 70
       }
     };
 
@@ -82,8 +82,8 @@ constructor(private formBuilder: FormBuilder) {
     iconScuderia =  {
         url:'',
         scaledSize: {
-        width: 400,
-        height: 70
+        width: 140,
+        height: 35
       }
     };
 
@@ -92,9 +92,9 @@ constructor(private formBuilder: FormBuilder) {
 
     let a;
     for (a in Circuiti.lista) {
-      if (Circuiti.lista[a]['name'] == data.nome) {
+      if (Circuiti.lista[a]['circuitRef'] == data.nome) {
         this.circuitoScelto = Circuiti.lista[a];
-        this.iconCircuito['url']=`./assets/img/${this.circuitoScelto['name'].toLowerCase()}.png`;
+        this.iconCircuito['url']=`./assets/img/${this.circuitoScelto['circuitRef'].toLowerCase()}.png`;
         this.lngcirc = this.circuitoScelto['lng'];
         this.latcirc = this.circuitoScelto['lat'];
         this.chosen = true;
@@ -110,9 +110,9 @@ constructor(private formBuilder: FormBuilder) {
 
         let a;
         for (a in Piloti.listaPil) {
-        if (Piloti.listaPil[a]['lastName'] == data.nome) {
+        if (Piloti.listaPil[a]['driverRef'] == data.nome) {
             this.pilotaScelto = Piloti.listaPil[a];
-            this.iconPilota['url']=`./assets/img/${this.pilotaScelto['lastName'].toLowerCase()}.png`;
+            this.iconPilota['url']=`./assets/img/${this.pilotaScelto['driverRef'].toLowerCase()}.png`;
             this.lngpil = this.pilotaScelto['lng'];
             this.latpil = this.pilotaScelto['lat'];
             this.chosen = true;
@@ -129,9 +129,9 @@ constructor(private formBuilder: FormBuilder) {
 
     let a;
     for (a in Scuderie.listascud) {
-      if (Scuderie.listascud[a]['name'] == data.nome) {
+      if (Scuderie.listascud[a]['constructorRef'] == data.nome) {
         this.scuderiaScelto = Scuderie.listascud[a];
-        this.iconScuderia['url']=`./assets/img/${this.scuderiaScelto['name'].toLowerCase()}.png`;
+        this.iconScuderia['url']=`./assets/img/${this.scuderiaScelto['constructorRef'].toLowerCase()}.png`;
         this.lngscud = this.scuderiaScelto['lng'];
         this.latscud = this.scuderiaScelto['lat'];
         this.chosen = true;
