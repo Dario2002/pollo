@@ -20,8 +20,8 @@ export class AppComponent {
   pilotaScelto;
   scuderiaScelto;
   //Aggiungiamo latitudine e longitudine di un luogo
-  lng: number = Circuiti.lista[1].lng;
-  lat: number = Circuiti.lista[1].lat;
+  lng: number = Circuiti.lista[5].lng;
+  lat: number = Circuiti.lista[5].lat;
 
   //lng: number = Piloti.listaPil[1].lng;
   //lat: number = Piloti.listaPil[1].lat;
