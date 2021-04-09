@@ -80,7 +80,7 @@ static lista=[
   },
   {
     "circuitId": 8,
-    "circuitRef": "magny cours",
+    "circuitRef": "magny cours", //
     "name": "Circuit de Nevers Magny-Cours",
     "location": "Magny Cours",
     "country": "France",
@@ -124,7 +124,7 @@ static lista=[
   },
   {
     "circuitId": 12,
-    "circuitRef": "valencia",
+    "circuitRef": "valencia", //
     "name": "Valencia Street Circuit",
     "location": "Valencia",
     "country": "Spain",
@@ -168,7 +168,7 @@ static lista=[
   },
   {
     "circuitId": 16,
-    "circuitRef": "fuji",
+    "circuitRef": "fuji", //
     "name": "Fuji Speedway",
     "location": "Oyama",
     "country": "Japan",
@@ -201,7 +201,7 @@ static lista=[
   },
   {
     "circuitId": 19,
-    "circuitRef": "indianapolis",
+    "circuitRef": "indianapolis", //
     "name": "Indianapolis Motor Speedway",
     "location": "Indianapolis",
     "country": "USA",
@@ -245,7 +245,7 @@ static lista=[
   },
   {
     "circuitId": 23,
-    "circuitRef": "osterreichring",
+    "circuitRef": "osterreichring", //
     "name": "A1-Ring",
     "location": "Spielburg",
     "country": "Austria",
@@ -267,7 +267,7 @@ static lista=[
   },
   {
     "circuitId": 25,
-    "circuitRef": "galvez",
+    "circuitRef": "galvez", //
     "name": "Autódromo Juan y Oscar Gálvez",
     "location": "Buenos Aires",
     "country": "Argentina",
@@ -278,7 +278,7 @@ static lista=[
   },
   {
     "circuitId": 26,
-    "circuitRef": "jerez",
+    "circuitRef": "jerez", //
     "name": "Circuito de Jerez",
     "location": "Jerez de la Frontera",
     "country": "Spain",
@@ -290,7 +290,7 @@ static lista=[
   {
     "circuitId": 27,
     "circuitRef": "estoril",
-    "name": "Autódromo do Estoril",
+    "name": "Autódromo do Estoril", //
     "location": "Estoril",
     "country": "Portugal",
     "lat": 38.7506,
@@ -300,7 +300,7 @@ static lista=[
   },
   {
     "circuitId": 28,
-    "circuitRef": "okayama",
+    "circuitRef": "okayama", //
     "name": "Okayama International Circuit",
     "location": "Okayama",
     "country": "Japan",
@@ -312,7 +312,7 @@ static lista=[
   {
     "circuitId": 29,
     "circuitRef": "adelaide",
-    "name": "Adelaide Street Circuit",
+    "name": "Adelaide Street Circuit", //
     "location": "Adelaide",
     "country": "Australia",
     "lat": -34.9272,
@@ -322,7 +322,7 @@ static lista=[
   },
   {
     "circuitId": 30,
-    "circuitRef": "kyalami",
+    "circuitRef": "kyalami", //
     "name": "Kyalami",
     "location": "Midrand",
     "country": "South Africa",
@@ -333,7 +333,7 @@ static lista=[
   },
   {
     "circuitId": 31,
-    "circuitRef": "donington",
+    "circuitRef": "donington", //
     "name": "Donington Park",
     "location": "Castle Donington",
     "country": "UK",
@@ -355,7 +355,7 @@ static lista=[
   },
   {
     "circuitId": 33,
-    "circuitRef": "phoenix",
+    "circuitRef": "phoenix", //
     "name": "Phoenix street circuit",
     "location": "Phoenix",
     "country": "USA",
@@ -378,7 +378,7 @@ static lista=[
   {
     "circuitId": 35,
     "circuitRef": "yeongam",
-    "name": "Korean International Circuit",
+    "name": "Korean International Circuit", //
     "location": "Yeongam County",
     "country": "Korea",
     "lat": 34.7333,
@@ -388,7 +388,7 @@ static lista=[
   },
   {
     "circuitId": 36,
-    "circuitRef": "jacarepagua",
+    "circuitRef": "jacarepagua", //
     "name": "Autódromo Internacional Nelson Piquet",
     "location": "Rio de Janeiro",
     "country": "Brazil",
@@ -399,7 +399,7 @@ static lista=[
   },
   {
     "circuitId": 37,
-    "circuitRef": "detroit",
+    "circuitRef": "detroit", //
     "name": "Detroit Street Circuit",
     "location": "Detroit",
     "country": "USA",
@@ -410,7 +410,7 @@ static lista=[
   },
   {
     "circuitId": 38,
-    "circuitRef": "brands_hatch",
+    "circuitRef": "brands hatch", //
     "name": "Brands Hatch",
     "location": "Kent",
     "country": "UK",
@@ -432,7 +432,7 @@ static lista=[
   },
   {
     "circuitId": 40,
-    "circuitRef": "zolder",
+    "circuitRef": "zolder", //
     "name": "Zolder",
     "location": "Heusden-Zolder",
     "country": "Belgium",
@@ -498,7 +498,7 @@ static lista=[
   },
   {
     "circuitId": 46,
-    "circuitRef": "watkins_glen",
+    "circuitRef": "watkins glen",
     "name": "Watkins Glen",
     "location": "New York State",
     "country": "USA",
