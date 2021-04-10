@@ -443,7 +443,7 @@ static lista=[
   },
   {
     "circuitId": 41,
-    "circuitRef": "dijon",
+    "circuitRef": "dijon", //
     "name": "Dijon-Prenois",
     "location": "Dijon",
     "country": "France",
@@ -454,7 +454,7 @@ static lista=[
   },
   {
     "circuitId": 42,
-    "circuitRef": "dallas",
+    "circuitRef": "dallas", //
     "name": "Fair Park",
     "location": "Dallas",
     "country": "USA",
@@ -466,7 +466,7 @@ static lista=[
   {
     "circuitId": 43,
     "circuitRef": "long beach",
-    "name": "Long Beach",
+    "name": "Long Beach", //
     "location": "California",
     "country": "USA",
     "lat": 33.7651,
@@ -476,7 +476,7 @@ static lista=[
   },
   {
     "circuitId": 44,
-    "circuitRef": "las vegas",
+    "circuitRef": "las vegas", //
     "name": "Las Vegas Street Circuit",
     "location": "Nevada",
     "country": "USA",
@@ -487,7 +487,7 @@ static lista=[
   },
   {
     "circuitId": 45,
-    "circuitRef": "jarama",
+    "circuitRef": "jarama", //
     "name": "Jarama",
     "location": "Madrid",
     "country": "Spain",
@@ -498,7 +498,7 @@ static lista=[
   },
   {
     "circuitId": 46,
-    "circuitRef": "watkins glen",
+    "circuitRef": "watkins glen", //
     "name": "Watkins Glen",
     "location": "New York State",
     "country": "USA",
@@ -509,7 +509,7 @@ static lista=[
   },
   {
     "circuitId": 47,
-    "circuitRef": "anderstorp",
+    "circuitRef": "anderstorp", //
     "name": "Scandinavian Raceway",
     "location": "Anderstorp",
     "country": "Sweden",
@@ -520,7 +520,7 @@ static lista=[
   },
   {
     "circuitId": 48,
-    "circuitRef": "mosport",
+    "circuitRef": "mosport", //
     "name": "Mosport International Raceway",
     "location": "Ontario",
     "country": "Canada",
@@ -531,7 +531,7 @@ static lista=[
   },
   {
     "circuitId": 49,
-    "circuitRef": "montjuic",
+    "circuitRef": "montjuic", //
     "name": "Montjuïc",
     "location": "Barcelona",
     "country": "Spain",
@@ -543,7 +543,7 @@ static lista=[
   {
     "circuitId": 50,
     "circuitRef": "nivelles",
-    "name": "Nivelles-Baulers",
+    "name": "Nivelles-Baulers", //
     "location": "Brussels",
     "country": "Belgium",
     "lat": 50.6211,
@@ -553,7 +553,7 @@ static lista=[
   },
   {
     "circuitId": 51,
-    "circuitRef": "charade",
+    "circuitRef": "charade", //
     "name": "Charade Circuit",
     "location": "Clermont-Ferrand",
     "country": "France",
@@ -564,7 +564,7 @@ static lista=[
   },
   {
     "circuitId": 52,
-    "circuitRef": "tremblant",
+    "circuitRef": "tremblant", //
     "name": "Circuit Mont-Tremblant",
     "location": "Quebec",
     "country": "Canada",
@@ -575,7 +575,7 @@ static lista=[
   },
   {
     "circuitId": 53,
-    "circuitRef": "essarts",
+    "circuitRef": "essarts", //
     "name": "Rouen-Les-Essarts",
     "location": "Rouen",
     "country": "France",
@@ -586,7 +586,7 @@ static lista=[
   },
   {
     "circuitId": 54,
-    "circuitRef": "lemans",
+    "circuitRef": "lemans", //
     "name": "Le Mans",
     "location": "Le Mans",
     "country": "France",
@@ -597,7 +597,7 @@ static lista=[
   },
   {
     "circuitId": 55,
-    "circuitRef": "reims",
+    "circuitRef": "reims", //
     "name": "Reims-Gueux",
     "location": "Reims",
     "country": "France",
@@ -608,7 +608,7 @@ static lista=[
   },
   {
     "circuitId": 56,
-    "circuitRef": "george",
+    "circuitRef": "george", //
     "name": "Prince George Circuit",
     "location": "Eastern Cape Province",
     "country": "South Africa",
@@ -619,7 +619,7 @@ static lista=[
   },
   {
     "circuitId": 57,
-    "circuitRef": "zeltweg",
+    "circuitRef": "zeltweg", //
     "name": "Zeltweg",
     "location": "Styria",
     "country": "Austria",
@@ -630,7 +630,7 @@ static lista=[
   },
   {
     "circuitId": 58,
-    "circuitRef": "aintree",
+    "circuitRef": "aintree", //
     "name": "Aintree",
     "location": "Liverpool",
     "country": "UK",
@@ -641,7 +641,7 @@ static lista=[
   },
   {
     "circuitId": 59,
-    "circuitRef": "boavista",
+    "circuitRef": "boavista", //
     "name": "Circuito da Boavista",
     "location": "Oporto",
     "country": "Portugal",
@@ -652,7 +652,7 @@ static lista=[
   },
   {
     "circuitId": 60,
-    "circuitRef": "riverside",
+    "circuitRef": "riverside", //
     "name": "Riverside International Raceway",
     "location": "California",
     "country": "USA",
@@ -663,7 +663,7 @@ static lista=[
   },
   {
     "circuitId": 61,
-    "circuitRef": "avus",
+    "circuitRef": "avus", //
     "name": "AVUS",
     "location": "Berlin",
     "country": "Germany",
@@ -674,7 +674,7 @@ static lista=[
   },
   {
     "circuitId": 62,
-    "circuitRef": "monsanto",
+    "circuitRef": "monsanto", //
     "name": "Monsanto Park Circuit",
     "location": "Lisbon",
     "country": "Portugal",
@@ -685,7 +685,7 @@ static lista=[
   },
   {
     "circuitId": 63,
-    "circuitRef": "sebring",
+    "circuitRef": "sebring", //
     "name": "Sebring International Raceway",
     "location": "Florida",
     "country": "USA",
@@ -696,7 +696,7 @@ static lista=[
   },
   {
     "circuitId": 64,
-    "circuitRef": "ain diab",
+    "circuitRef": "ain diab", //
     "name": "Ain Diab",
     "location": "Casablanca",
     "country": "Morocco",
@@ -707,7 +707,7 @@ static lista=[
   },
   {
     "circuitId": 65,
-    "circuitRef": "pescara",
+    "circuitRef": "pescara", //
     "name": "Pescara Circuit",
     "location": "Pescara",
     "country": "Italy",
@@ -718,7 +718,7 @@ static lista=[
   },
   {
     "circuitId": 66,
-    "circuitRef": "bremgarten",
+    "circuitRef": "bremgarten", //
     "name": "Circuit Bremgarten",
     "location": "Bern",
     "country": "Switzerland",
@@ -729,7 +729,7 @@ static lista=[
   },
   {
     "circuitId": 67,
-    "circuitRef": "pedralbes",
+    "circuitRef": "pedralbes", //
     "name": "Circuit de Pedralbes",
     "location": "Barcelona",
     "country": "Spain",
@@ -740,7 +740,7 @@ static lista=[
   },
   {
     "circuitId": 68,
-    "circuitRef": "buddh",
+    "circuitRef": "buddh", //
     "name": "Buddh International Circuit",
     "location": "Uttar Pradesh",
     "country": "India",
@@ -784,7 +784,7 @@ static lista=[
   },
   {
     "circuitId": 72,
-    "circuitRef": "port imperial",
+    "circuitRef": "port imperial", //
     "name": "Port Imperial Street Circuit",
     "location": "New Jersey",
     "country": "USA",
@@ -806,7 +806,7 @@ static lista=[
   },
   {
     "circuitId": 74,
-    "circuitRef": "hanoi",
+    "circuitRef": "hanoi", //
     "name": "Hanoi Street Circuit",
     "location": "Hanoi",
     "country": "Vietnam",
