@@ -1,25 +1,20 @@
-import { Component, ViewChild, ElementRef } from '@angular/core';
-import { Circuiti } from '../assets/Circuiti'
-import { Piloti } from '../assets/Piloti'
-import { Scuderie } from '../assets/Scuderie'
+import { Component, OnInit } from '@angular/core';
+import { Scuderie } from 'src/assets/Scuderie';
+import { Piloti } from 'src/assets/Piloti';
+import { Circuiti } from 'src/assets/Circuiti';
 import { FormBuilder } from '@angular/forms';
 
-
-
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
-
+  selector: 'app-map',
+  templateUrl: './map.component.html',
+  styleUrls: ['./map.component.css']
 })
-
-export class AppComponent {
+export class MapComponent {
   height = window.innerHeight;
-  title = 'server mappe';
   circuitoScelto;
   pilotaScelto;
   scuderiaScelto;
-  //Aggiungiamo latitudine e longitudine di un luogo
+
   lng: number = Circuiti.lista[5].lng;
   lat: number = Circuiti.lista[5].lat;
 
@@ -150,8 +145,3 @@ constructor(private formBuilder: FormBuilder) {
 
   }
 }
-
-
-
-
-
