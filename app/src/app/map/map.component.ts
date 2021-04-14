@@ -93,6 +93,8 @@ constructor(private formBuilder: FormBuilder) {
         this.iconCircuito['url'] = `./assets/img/${this.circuitoScelto['circuitRef'].toLowerCase()}.png`;
         this.lngcirc = this.circuitoScelto['lng'];
         this.latcirc = this.circuitoScelto['lat'];
+        this.lng = this.circuitoScelto['lng'];
+        this.lat = this.circuitoScelto['lat'];
         this.chosen = true;
       }
     }
@@ -110,6 +112,8 @@ constructor(private formBuilder: FormBuilder) {
             this.iconPilota['url']=`./assets/img/${this.pilotaScelto['driverRef'].toLowerCase()}.png`;
             this.lngpil = this.pilotaScelto['lng'];
             this.latpil = this.pilotaScelto['lat'];
+            this.lng = this.pilotaScelto['lng'];
+            this.lat = this.pilotaScelto['lat'];
             this.chosen = true;
         }
         }
@@ -129,6 +133,8 @@ constructor(private formBuilder: FormBuilder) {
         this.iconScuderia['url']=`./assets/img/${this.scuderiaScelto['constructorRef'].toLowerCase()}.png`;
         this.lngscud = this.scuderiaScelto['lng'];
         this.latscud = this.scuderiaScelto['lat'];
+        this.lng = this.scuderiaScelto['lng'];
+        this.lat = this.scuderiaScelto['lat'];
         this.chosen = true;
       }
     }
