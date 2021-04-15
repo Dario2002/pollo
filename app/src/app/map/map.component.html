@@ -38,14 +38,14 @@
           <form [formGroup]="circuitoForm" (ngSubmit)="submit()">
           <input class="form-control" id="circuitRef" placeholder="Inserisci il nome di un circuito" type="text" formControlName="nome" required>
           &nbsp;
-          <button type="submit" class="btn btn-primary">Search</button>
+          <button type="submit" class="btn btn-danger">Search</button>
 
           </form>
           <br><br>
           <form [formGroup]="pilotaForm" (ngSubmit)="submit1()">
           <input class="form-control" id="driverRef" placeholder="Inserisci il nome di un pilota" type="text" formControlName="nome" required>
           &nbsp;
-          <button type="submit" class="btn btn-primary">Search</button>
+          <button type="submit" class="btn btn-danger">Search</button>
 
           </form>
 
@@ -53,7 +53,7 @@
           <form [formGroup]="scuderiaForm" (ngSubmit)="submit2()">
           <input class="form-control" id="constructorRef" placeholder="Inserisci il nome di una scuderia" type="text" formControlName="nome" required>
           &nbsp;
-          <button type="submit" class="btn btn-primary">Search</button>
+          <button type="submit" class="btn btn-danger">Search</button>
 
           </form>
       </div>

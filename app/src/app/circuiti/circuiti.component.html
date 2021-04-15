@@ -1,0 +1,22 @@
+<div class="container-fluid">
+  <br><br><br>
+  <div class="row">
+    <!--<div class="col-3">-->
+      <form [formGroup]="searchForm" (ngSubmit)="search()">
+        <div class="form-group">
+          <input class="form-control" placeholder="Scrivere il nome del circuito" type="text" formControlName="name" required>
+        </div>
+
+        <button type="submit" class="btn btn-danger">Search</button>
+      <br>
+      <br>
+      </form>
+
+
+      <div class="container-fluid">
+
+
+      </div>
+    <!--</div>-->
+  </div>
+</div>

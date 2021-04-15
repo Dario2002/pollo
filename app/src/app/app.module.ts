@@ -9,13 +9,19 @@ import { MapComponent } from './map/map.component';
 import { PilotComponent } from './pilot/pilot.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ScuderieComponent } from './scuderie/scuderie.component';
+import { CircuitiComponent } from './circuiti/circuiti.component';
+import { GareComponent } from './gare/gare.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     MapComponent,
-    PilotComponent
+    PilotComponent,
+    ScuderieComponent,
+    CircuitiComponent,
+    GareComponent
   ],
   imports: [
     BrowserModule,
