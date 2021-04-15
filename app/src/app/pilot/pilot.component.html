@@ -1,19 +1,37 @@
 <div class="container-fluid">
   <br><br><br>
   <div class="row">
-    <div class="col-3">
+    <!--<div class="col-3">-->
       <form [formGroup]="searchForm" (ngSubmit)="search()">
         <div class="form-group">
           <input class="form-control" placeholder="Scrivi nome del pilota" type="text" formControlName="name" required>
         </div>
 
         <button type="submit" class="btn btn-primary">Search</button>
+      <br>
+      <br>
       </form>
 
-      <div *ngIf="active">
-        {{pilota.firstName}} {{pilota.lastName}} {{pilota.driverRef}} {{pilota.car}}
-      </div>
 
-    </div>
+      <div class="container-fluid">
+
+        <div *ngIf="active">
+          <h1>{{pilota.firstName}} {{pilota.lastName}} </h1> <br>
+          <img src="{{ pilota.image }}"> <br><br>
+          <p><b>NAZIONALITÀ:</b> {{pilota.nationality}}</p>
+          <p><b>LUOGO DI NASCITA:</b> {{pilota.placeOfBirth}} </p>
+          <p><b>DATA DI NASCITÀ:</b> {{pilota.dateOfBirth}}</p>
+          <p><b>AUTO:</b> {{pilota.car}}</p>
+          <p><b>PODI:</b> {{pilota.podiums}}</p>
+          <p><b>GP SVOLTI:</b> {{pilota.participatingGPs}}</p>
+          <p><b>GP VINTI:</b> {{pilota.winningGPs}}</p>
+          <p><b>CAMPIONATI VINTI:</b> {{pilota.championshipsWon}}</p>
+          <p><b>BIOGRAFIA:</b> {{pilota.biografy}}</p>
+
+
+        </div>
+
+      </div>
+    <!--</div>-->
   </div>
 </div>

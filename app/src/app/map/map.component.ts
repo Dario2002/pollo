@@ -59,8 +59,8 @@ constructor(private formBuilder: FormBuilder) {
     iconCircuito =  {
         url:'',
         scaledSize: {
-        width: 150,
-        height: 60
+        width: 80,
+        height: 80
       }
     };
 
@@ -68,8 +68,8 @@ constructor(private formBuilder: FormBuilder) {
     iconPilota =  {
         url:'',
         scaledSize: {
-        width: 70,
-        height: 70
+        width: 80,
+        height: 80
       }
     };
 
@@ -77,8 +77,8 @@ constructor(private formBuilder: FormBuilder) {
     iconScuderia =  {
         url:'',
         scaledSize: {
-        width: 140,
-        height: 35
+        width: 80,
+        height: 80
       }
     };
 
@@ -90,7 +90,7 @@ constructor(private formBuilder: FormBuilder) {
       if (Circuiti.lista[a]['circuitRef'] == data.nome) {
         this.chosen = false;
         this.circuitoScelto = Circuiti.lista[a];
-        this.iconCircuito['url'] = `./assets/img/${this.circuitoScelto['circuitRef'].toLowerCase()}.png`;
+        this.iconCircuito['url'] = `./assets/img/bandierina.png`;
         this.lngcirc = this.circuitoScelto['lng'];
         this.latcirc = this.circuitoScelto['lat'];
         this.lng = this.circuitoScelto['lng'];
