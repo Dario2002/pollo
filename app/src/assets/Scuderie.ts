@@ -1,6 +1,6 @@
 export class Scuderie
 {
-static listascud = [
+ static listascud = [
   {
     "constructorId": 1,
     "constructorRef": "mercedes",
@@ -8,6 +8,11 @@ static listascud = [
     "firstTeamEntry": 1970,
     "Base": "Brackley",
     "Country": "United Kingdom",
+    "World Championships": 0,
+    "Highest Race Finish": 0,
+    "Pole Positions": 0,
+    "Fastest Laps": 0,
+    "Current Pilots": 0,
     "lat": 52.0278,
     "lng": -1.14291
   },
@@ -18,6 +23,11 @@ static listascud = [
     "firstTeamEntry": 1997,
     "Base": "Milton Keynes",
     "Country": "United Kingdom",
+    "World Championships": 0,
+    "Highest Race Finish": 0,
+    "Pole Positions": 0,
+    "Fastest Laps": 0,
+    "Current Pilots": 0,
     "lat": 52.0401,
     "lng": -0.75927
   },
@@ -28,6 +38,11 @@ static listascud = [
     "firstTeamEntry": 1966,
     "Base": "Woking",
     "Country": "United Kingdom",
+    "World Championships": 0,
+    "Highest Race Finish": 0,
+    "Pole Positions": 0,
+    "Fastest Laps": 0,
+    "Current Pilots": 0,
     "lat": 51.3164,
     "lng": -0.56066
   },
@@ -38,6 +53,11 @@ static listascud = [
     "firstTeamEntry": 1950,
     "Base": "Maranello",
     "Country": "Italy",
+    "World Championships": 16,
+    "Highest Race Finish": "1(x239)",
+    "Pole Positions": 221,
+    "Fastest Laps": 253,
+    "Current Pilots": "Charles Leclerc, Carlos Sainz",
     "lat": 44.5266,
     "lng": 10.8674
   },
@@ -48,6 +68,11 @@ static listascud = [
     "firstTeamEntry": 1985,
     "Base": "Faenza",
     "Country": "Italy",
+    "World Championships": 0,
+    "Highest Race Finish": 0,
+    "Pole Positions": 0,
+    "Fastest Laps": 0,
+    "Current Pilots": 0,
     "lat": 44.2891,
     "lng": 11.8775
   },
@@ -58,6 +83,11 @@ static listascud = [
     "firstTeamEntry": 2018,
     "Base": "Silverstone",
     "Country": "United Kingdom",
+    "World Championships": 0,
+    "Highest Race Finish": 0,
+    "Pole Positions": 0,
+    "Fastest Laps": 0,
+    "Current Pilots": 0,
     "lat": 52.0913,
     "lng": -1.02836
   },
@@ -68,6 +98,11 @@ static listascud = [
     "firstTeamEntry": 1993,
     "Base": "Hinwil",
     "Country": "Switzerland",
+    "World Championships": "not any",
+    "Highest Race Finish": "1(x1)",
+    "Pole Positions": 1,
+    "Fastest Laps": 5,
+    "Current Pilots": "Kimi Raikkonen, Antonio Giovinazzi",
     "lat": 47.303,
     "lng": 8.8371
   },
@@ -78,6 +113,11 @@ static listascud = [
     "firstTeamEntry": 1986,
     "Base": "Enstone",
     "Country": "United Kingdom",
+    "World Championships":0 ,
+    "Highest Race Finish": 0,
+    "Pole Positions":0 ,
+    "Fastest Laps": 0,
+    "Current Pilots": 0,
     "lat": 51.9199,
     "lng": -1.45578
   },
@@ -88,6 +128,11 @@ static listascud = [
     "firstTeamEntry": 1978,
     "Base": "Grove",
     "Country": "United Kingdom",
+    "World Championships": 0,
+    "Highest Race Finish": 0,
+    "Pole Positions": 0,
+    "Fastest Laps": 0,
+    "Current Pilots": 0,
     "lat": 51.6129,
     "lng": -1.41958
   },
@@ -98,6 +143,11 @@ static listascud = [
     "firstTeamEntry": 2016,
     "Base": "Kannapolis",
     "Country": "United States",
+    "World Championships": 0,
+    "Highest Race Finish": 0,
+    "Pole Positions": 0,
+    "Fastest Laps": 0,
+    "Current Pilots": 0,
     "lat": 35.4863,
     "lng": -80.6228
   }

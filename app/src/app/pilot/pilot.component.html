@@ -13,10 +13,10 @@
       </form>
 
 
-      <div class="container-fluid">
+      <div class="container-fluid text-center">
 
         <div *ngIf="active">
-          <h1>{{pilota.firstName}} {{pilota.lastName}} </h1> <br>
+          <h1 style="color:red;">{{pilota.firstName}} {{pilota.lastName}} </h1> <br>
           <img src="{{ pilota.image }}"> <br><br>
           <p><b>NAZIONALITÀ:</b> {{pilota.nationality}}</p>
           <p><b>LUOGO DI NASCITA:</b> {{pilota.placeOfBirth}} </p>

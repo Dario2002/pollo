@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 import { Scuderie } from 'src/assets/Scuderie';
 import { Piloti } from 'src/assets/Piloti';
 import { Circuiti } from 'src/assets/Circuiti';
@@ -34,7 +34,7 @@ export class MapComponent {
   latscud;
   lngscud;
 
-pilota:string;
+  pilota: string;
   chosen: boolean = false;
 
 
@@ -52,35 +52,35 @@ pilota:string;
 
 
 
-constructor(private formBuilder: FormBuilder) {
+  constructor(private formBuilder: FormBuilder, private cd: ChangeDetectorRef) {
 
-}
+  }
 
-    iconCircuito =  {
-        url:'',
-        scaledSize: {
-        width: 80,
-        height: 80
-      }
-    };
-
-
-    iconPilota =  {
-        url:'',
-        scaledSize: {
-        width: 80,
-        height: 80
-      }
-    };
+  iconCircuito = {
+    url: '',
+    scaledSize: {
+      width: 80,
+      height: 80
+    }
+  };
 
 
-    iconScuderia =  {
-        url:'',
-        scaledSize: {
-        width: 80,
-        height: 80
-      }
-    };
+  iconPilota = {
+    url: '',
+    scaledSize: {
+      width: 80,
+      height: 80
+    }
+  };
+
+
+  iconScuderia = {
+    url: '',
+    scaledSize: {
+      width: 80,
+      height: 80
+    }
+  };
 
   submit() {
     let data = this.circuitoForm.value;
@@ -96,31 +96,34 @@ constructor(private formBuilder: FormBuilder) {
         this.lng = this.circuitoScelto['lng'];
         this.lat = this.circuitoScelto['lat'];
         this.chosen = true;
+        this.cd.detectChanges();
       }
     }
 
     this.circuitoForm.reset();
   }
 
-    submit1() {
-        let data = this.pilotaForm.value;
+  submit1() {
+    let data = this.pilotaForm.value;
 
-        let a;
-        for (a in Piloti.listaPil) {
-        if (Piloti.listaPil[a]['driverRef'] == data.nome) {
-            this.pilotaScelto = Piloti.listaPil[a];
-            this.iconPilota['url']=`./assets/img/${this.pilotaScelto['driverRef'].toLowerCase()}.png`;
-            this.lngpil = this.pilotaScelto['lng'];
-            this.latpil = this.pilotaScelto['lat'];
-            this.lng = this.pilotaScelto['lng'];
-            this.lat = this.pilotaScelto['lat'];
-            this.chosen = true;
-        }
-        }
-
-        this.pilotaForm.reset();
-
+    let a;
+    for (a in Piloti.listaPil) {
+      if (Piloti.listaPil[a]['driverRef'] == data.nome) {
+        this.pilotaScelto = Piloti.listaPil[a];
+        this.iconPilota['url'] = `./assets/img/${this.pilotaScelto['driverRef'].toLowerCase()}.png`;
+        console.log(this.iconPilota);
+        this.lngpil = this.pilotaScelto['lng'];
+        this.latpil = this.pilotaScelto['lat'];
+        this.lng = this.pilotaScelto['lng'];
+        this.lat = this.pilotaScelto['lat'];
+        this.chosen = true;
+        this.cd.detectChanges();
+      }
     }
+
+    this.pilotaForm.reset();
+
+  }
 
 
   submit2() {
@@ -130,12 +133,13 @@ constructor(private formBuilder: FormBuilder) {
     for (a in Scuderie.listascud) {
       if (Scuderie.listascud[a]['constructorRef'] == data.nome) {
         this.scuderiaScelto = Scuderie.listascud[a];
-        this.iconScuderia['url']=`./assets/img/${this.scuderiaScelto['constructorRef'].toLowerCase()}.png`;
+        this.iconScuderia['url'] = `./assets/img/${this.scuderiaScelto['constructorRef'].toLowerCase()}.png`;
         this.lngscud = this.scuderiaScelto['lng'];
         this.latscud = this.scuderiaScelto['lat'];
         this.lng = this.scuderiaScelto['lng'];
         this.lat = this.scuderiaScelto['lat'];
         this.chosen = true;
+        this.cd.detectChanges();
       }
     }
 
@@ -145,9 +149,8 @@ constructor(private formBuilder: FormBuilder) {
 
 
 
-  onClick()
-  {
-  console.log("fungo")
+  onClick() {
+    console.log("fungo")
 
   }
 }
