@@ -10,7 +10,13 @@ static lista=[
     "lat": -37.8497,
     "lng": 144.968,
     "alt": 10,
-    "url": "http://en.wikipedia.org/wiki/Melbourne_Grand_Prix_Circuit"
+    "url": "http://en.wikipedia.org/wiki/Melbourne_Grand_Prix_Circuit",
+    "Lunghezza":	"5303 m",
+    "Curve":	16,
+    "Inaugurazione":	1996,
+    "TempoRecord":	"1.24.125",
+    "Detentore": "Michael Schumacher",
+    "image": "https://media4.speedcafe.com/wp-content/uploads/2019/03/Albert-Park-1200x821.jpg"
   },
   {
     "circuitId": 2,
@@ -21,7 +27,13 @@ static lista=[
     "lat": 2.76083,
     "lng": 101.738,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Sepang_International_Circuit"
+    "url": "http://en.wikipedia.org/wiki/Sepang_International_Circuit",
+    "Lunghezza":	"5543 m",
+    "Curve":	15,
+    "Inaugurazione":	1998,
+    "TempoRecord":	"1.34.080",
+    "Detentore": "Sebastian Vettel",
+    "image": "https://www.drivingitalia.net/uploads/monthly_2017_09/59ce1b059ed92_1064_ZymQnnzE_large(1).jpg.da2c83cdb6c2173e60a3c7f0908d5195.jpg"
   },
   {
     "circuitId": 3,
@@ -32,7 +44,13 @@ static lista=[
     "lat": 26.0325,
     "lng": 50.5106,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Bahrain_International_Circuit"
+    "url": "http://en.wikipedia.org/wiki/Bahrain_International_Circuit",
+    "Lunghezza":	"5412 m",
+    "Curve":	15,
+    "Inaugurazione":	2004,
+    "TempoRecord":	"1.31.447",
+    "Detentore": "Pedro de la Rosa",
+    "image": "https://www.funoanalisitecnica.com/wp-content/uploads/2021/03/111.jpg"
   },
   {
     "circuitId": 4,
@@ -43,7 +61,13 @@ static lista=[
     "lat": 41.57,
     "lng": 2.26111,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Circuit_de_Barcelona-Catalunya"
+    "url": "http://en.wikipedia.org/wiki/Circuit_de_Barcelona-Catalunya",
+    "Lunghezza":	"4675 m",
+    "Curve":	16,
+    "Inaugurazione":	1991,
+    "TempoRecord":	"1.18.183",
+    "Detentore": "Valtteri Bottas",
+    "image": "https://c1.wallpaperflare.com/preview/427/723/786/barcelona-building-circuit-de-catalunya-course.jpg"
   },
   {
     "circuitId": 5,
@@ -54,7 +78,13 @@ static lista=[
     "lat": 40.9517,
     "lng": 29.405,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Istanbul_Park"
+    "url": "http://en.wikipedia.org/wiki/Istanbul_Park",
+    "Lunghezza":	"5338 m",
+    "Curve":	14,
+    "Inaugurazione":	2005,
+    "TempoRecord":	"1.24.770",
+    "Detentore": "	Juan Pablo Montoya",
+    "image": "https://www.formula1.com/content/dam/fom-website/manual/Misc/2020/2020races/Turkey/GENERAL%20AERIAL%20SHOT%20AND%20CORNER%201.jpg"
   },
   {
     "circuitId": 6,

@@ -3,11 +3,13 @@ import { Scuderie } from 'src/assets/Scuderie';
 import { Piloti } from 'src/assets/Piloti';
 import { Circuiti } from 'src/assets/Circuiti';
 import { FormBuilder } from '@angular/forms';
+import { ChangeDetectionStrategy } from '@angular/compiler/src/core';
+import { Marker } from '../models/marker.model';
 
 @Component({
   selector: 'app-map',
   templateUrl: './map.component.html',
-  styleUrls: ['./map.component.css']
+  styleUrls: ['./map.component.css'],
 })
 export class MapComponent {
   height = window.innerHeight;
@@ -56,31 +58,18 @@ export class MapComponent {
 
   }
 
-  iconCircuito = {
-    url: '',
-    scaledSize: {
-      width: 80,
-      height: 80
-    }
-  };
+//  iconCircuito = {
+//    url: '',
+//    scaledSize: {
+//      width: 80,
+//      height: 80
+//    }
+//  };
 
 
-  iconPilota = {
-    url: '',
-    scaledSize: {
-      width: 80,
-      height: 80
-    }
-  };
-
-
-  iconScuderia = {
-    url: '',
-    scaledSize: {
-      width: 80,
-      height: 80
-    }
-  };
+  iconCircuito: Marker;
+  iconPilota : Marker;
+  iconScuderia: Marker;
 
   submit() {
     let data = this.circuitoForm.value;
@@ -90,13 +79,13 @@ export class MapComponent {
       if (Circuiti.lista[a]['circuitRef'] == data.nome) {
         this.chosen = false;
         this.circuitoScelto = Circuiti.lista[a];
-        this.iconCircuito['url'] = `./assets/img/bandierina.png`;
+        this.iconCircuito = new Marker (`./assets/img/bandierina.png`, 80);
         this.lngcirc = this.circuitoScelto['lng'];
         this.latcirc = this.circuitoScelto['lat'];
         this.lng = this.circuitoScelto['lng'];
         this.lat = this.circuitoScelto['lat'];
         this.chosen = true;
-        this.cd.detectChanges();
+
       }
     }
 
@@ -110,16 +99,17 @@ export class MapComponent {
     for (a in Piloti.listaPil) {
       if (Piloti.listaPil[a]['driverRef'] == data.nome) {
         this.pilotaScelto = Piloti.listaPil[a];
-        this.iconPilota['url'] = `./assets/img/${this.pilotaScelto['driverRef'].toLowerCase()}.png`;
+        this.iconPilota = new Marker (`./assets/img/${this.pilotaScelto['driverRef'].toLowerCase()}.png`, 80);
         console.log(this.iconPilota);
         this.lngpil = this.pilotaScelto['lng'];
         this.latpil = this.pilotaScelto['lat'];
         this.lng = this.pilotaScelto['lng'];
         this.lat = this.pilotaScelto['lat'];
         this.chosen = true;
-        this.cd.detectChanges();
+
       }
     }
+    console.log("ciao");
 
     this.pilotaForm.reset();
 
@@ -133,16 +123,17 @@ export class MapComponent {
     for (a in Scuderie.listascud) {
       if (Scuderie.listascud[a]['constructorRef'] == data.nome) {
         this.scuderiaScelto = Scuderie.listascud[a];
-        this.iconScuderia['url'] = `./assets/img/${this.scuderiaScelto['constructorRef'].toLowerCase()}.png`;
+        this.iconScuderia = new Marker (`./assets/img/${this.scuderiaScelto['constructorRef'].toLowerCase()}.png`, 80);
         this.lngscud = this.scuderiaScelto['lng'];
         this.latscud = this.scuderiaScelto['lat'];
         this.lng = this.scuderiaScelto['lng'];
         this.lat = this.scuderiaScelto['lat'];
         this.chosen = true;
-        this.cd.detectChanges();
+
       }
     }
 
+    this.cd.detectChanges();
     this.scuderiaForm.reset();
 
   }
