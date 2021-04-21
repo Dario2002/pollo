@@ -95,7 +95,13 @@ static lista=[
     "lat": 43.7347,
     "lng": 7.42056,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Circuit_de_Monaco"
+    "url": "http://en.wikipedia.org/wiki/Circuit_de_Monaco",
+    "Lunghezza":	"3337 m",
+    "Curve":	19,
+    "Inaugurazione":	1929,
+    "TempoRecord":	"1.14.260",
+    "Detentore": "Max Verstappen",
+    "image": "https://wallpapercave.com/wp/wp3067733.jpg"
   },
   {
     "circuitId": 7,
@@ -106,7 +112,13 @@ static lista=[
     "lat": 45.5,
     "lng": -73.5228,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Circuit_Gilles_Villeneuve"
+    "url": "http://en.wikipedia.org/wiki/Circuit_Gilles_Villeneuve",
+    "Lunghezza":	"	4361 m",
+    "Curve":	14,
+    "Inaugurazione":	1978,
+    "TempoRecord":	"1.13.078",
+    "Detentore": "Valtteri Bottas",
+    "image": "https://www.f1-fansite.com/wp-content/uploads/2012/07/F1-Fansite.com-HD-Wallpaper-2012-Canada-F1-GP_25.jpg"
   },
   {
     "circuitId": 8,
@@ -117,7 +129,13 @@ static lista=[
     "lat": 46.8642,
     "lng": 3.16361,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Circuit_de_Nevers_Magny-Cours"
+    "url": "http://en.wikipedia.org/wiki/Circuit_de_Nevers_Magny-Cours",
+    "Lunghezza":	"	4411 m",
+    "Curve":	17,
+    "Inaugurazione":	1960,
+    "TempoRecord":	"1.15.377",
+    "Detentore": "Michael Schumacher",
+    "image": "https://images2-motori.gazzettaobjects.it/corsedimoto/2020/09/29/06/30/cover-magny-cours-375x289.jpeg"
   },
   {
     "circuitId": 9,
@@ -128,7 +146,13 @@ static lista=[
     "lat": 52.0786,
     "lng": -1.01694,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Silverstone_Circuit"
+    "url": "http://en.wikipedia.org/wiki/Silverstone_Circuit",
+    "Lunghezza":	"	5891 m",
+    "Curve":	18,
+    "Inaugurazione":	1947,
+    "TempoRecord":	"1.27.097",
+    "Detentore": "Max Verstappen",
+    "image": "https://populous.com/wp-content/uploads/2018/01/POP_07_3037_00_3037_Silverstone_Exterior_Day1_DarrenHeath_FullRights.jpg"
   },
   {
     "circuitId": 10,
@@ -139,7 +163,13 @@ static lista=[
     "lat": 49.3278,
     "lng": 8.56583,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Hockenheimring"
+    "url": "http://en.wikipedia.org/wiki/Hockenheimring",
+    "Lunghezza":	"	4574 m",
+    "Curve":	17,
+    "Inaugurazione":	1932,
+    "TempoRecord":	"1.13.780",
+    "Detentore": "	Kimi Räikkönen",
+    "image": "https://www.thenationalnews.com/image/policy:1.48579:1498923355/image/jpeg.jpg?f=16x9&w=1024&$p$f$w=2589da4"
   },
   {
     "circuitId": 11,
@@ -150,7 +180,13 @@ static lista=[
     "lat": 47.5789,
     "lng": 19.2486,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Hungaroring"
+    "url": "http://en.wikipedia.org/wiki/Hungaroring",
+    "Lunghezza":	"	4381 m",
+    "Curve":	14,
+    "Inaugurazione":	1986,
+    "TempoRecord":	"1.16.627",
+    "Detentore": "Lewis Hamilton",
+    "image": "https://www.f1-fansite.com/wp-content/uploads/2013/07/F1-Fansite.com-HD-Wallpaper-2012-Hungary-F1-GP_17-618x278.jpg"
   },
   {
     "circuitId": 12,
@@ -161,7 +197,13 @@ static lista=[
     "lat": 39.4589,
     "lng": -0.331667,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Valencia_Street_Circuit"
+    "url": "http://en.wikipedia.org/wiki/Valencia_Street_Circuit",
+    "Lunghezza":	"	5419 m",
+    "Curve":	25,
+    "Inaugurazione":	2008,
+    "TempoRecord":	"1.38.683",
+    "Detentore": "Timo Glock",
+    "image": "https://www.formulapassion.it/wp-content/uploads/2019/11/Circuito-Ricardo-Tormo-Valencia-666x433.jpg"
   },
   {
     "circuitId": 13,
