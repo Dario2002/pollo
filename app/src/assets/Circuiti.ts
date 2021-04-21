@@ -214,7 +214,13 @@ static lista=[
     "lat": 50.4372,
     "lng": 5.97139,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Circuit_de_Spa-Francorchamps"
+    "url": "http://en.wikipedia.org/wiki/Circuit_de_Spa-Francorchamps",
+    "Lunghezza":	"	7004 m",
+    "Curve":	19,
+    "Inaugurazione":		1924,
+    "TempoRecord":	"1.46.286",
+    "Detentore": "Valtteri Bottas",
+    "image": "https://c4.wallpaperflare.com/wallpaper/73/960/931/spa-francorchamps-circuit-wallpaper-preview.jpg"
   },
   {
     "circuitId": 14,
@@ -225,7 +231,13 @@ static lista=[
     "lat": 45.6156,
     "lng": 9.28111,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Autodromo_Nazionale_Monza"
+    "url": "http://en.wikipedia.org/wiki/Autodromo_Nazionale_Monza",
+    "Lunghezza":	"	5793 m",
+    "Curve":	11,
+    "Inaugurazione":		1922,
+    "TempoRecord":	"1.21.046",
+    "Detentore": "Rubens Barrichello",
+    "image": "https://prod.r3eassets.com/assets/content/track/monza-circuit-1670-signature-original.png"
   },
   {
     "circuitId": 15,
@@ -236,7 +248,13 @@ static lista=[
     "lat": 1.2914,
     "lng": 103.864,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Marina_Bay_Street_Circuit"
+    "url": "http://en.wikipedia.org/wiki/Marina_Bay_Street_Circuit",
+    "Lunghezza":	"	5063 m",
+    "Curve":	23,
+    "Inaugurazione":		2008,
+    "TempoRecord":	"1.41.905",
+    "Detentore": "Kevin Magnussen",
+    "image": "https://nazionaliditalia.it/wp-content/uploads/2018/09/marina-bay-street-circuit.jpg"
   },
   {
     "circuitId": 16,
@@ -247,7 +265,13 @@ static lista=[
     "lat": 35.3717,
     "lng": 138.927,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Fuji_Speedway"
+    "url": "http://en.wikipedia.org/wiki/Fuji_Speedway",
+    "Lunghezza":	"	4563 m",
+    "Curve":	16,
+    "Inaugurazione":		1965,
+    "TempoRecord":	"1.18.426",
+    "Detentore": "Felipe Massa",
+    "image": "https://i.pinimg.com/originals/b4/88/18/b488188f570aaf3b3a34ed593bc2bda7.jpg"
   },
   {
     "circuitId": 17,
@@ -258,7 +282,13 @@ static lista=[
     "lat": 31.3389,
     "lng": 121.22,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Shanghai_International_Circuit"
+    "url": "http://en.wikipedia.org/wiki/Shanghai_International_Circuit",
+    "Lunghezza":	"	5451 m",
+    "Curve":	16,
+    "Inaugurazione":	2004,
+    "TempoRecord":	"	1.31.095",
+    "Detentore": "Sebastian Vettel",
+    "image": "https://f1grandprix.motorionline.com/wp-content/uploads/2019/04/anteprima-gp-cina-2019.jpg"
   },
   {
     "circuitId": 18,
@@ -269,7 +299,13 @@ static lista=[
     "lat": -23.7036,
     "lng": -46.6997,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace"
+    "url": "http://en.wikipedia.org/wiki/Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace",
+    "Lunghezza":	"	4309 m",
+    "Curve":	15,
+    "Inaugurazione":	1940,
+    "TempoRecord":	"	1.10.540",
+    "Detentore": "Valtteri Bottas",
+    "image": "https://cdn1.snaplap.net/wp-content/uploads/2015/08/08081034/interlagos-circuit.jpg"
   },
   {
     "circuitId": 19,
@@ -280,7 +316,13 @@ static lista=[
     "lat": 39.795,
     "lng": -86.2347,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Indianapolis_Motor_Speedway"
+    "url": "http://en.wikipedia.org/wiki/Indianapolis_Motor_Speedway",
+    "Lunghezza":	"	4192 m",
+    "Curve":	13,
+    "Inaugurazione":	1909,
+    "TempoRecord":	"	1.10.399",
+    "Detentore": "Rubens Barrichello",
+    "image": "https://c1.wallpaperflare.com/preview/848/969/283/indianapolis-motor-speedway-aerial-view-auto-racing-sports.jpg"
   },
   {
     "circuitId": 20,
@@ -291,7 +333,13 @@ static lista=[
     "lat": 50.3356,
     "lng": 6.9475,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/N%C3%BCrburgring"
+    "url": "http://en.wikipedia.org/wiki/N%C3%BCrburgring",
+    "Lunghezza":	"	5148 m",
+    "Curve":	15,
+    "Inaugurazione":	1927,
+    "TempoRecord":	"	1.25.269",
+    "Detentore": "Valtteri Bottas",
+    "image": "https://www.assettocorsa.it/wp-content/uploads/Nordschleife-bgr02.jpg"
   },
   {
     "circuitId": 21,
@@ -302,7 +350,13 @@ static lista=[
     "lat": 44.3439,
     "lng": 11.7167,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Autodromo_Enzo_e_Dino_Ferrari"
+    "url": "http://en.wikipedia.org/wiki/Autodromo_Enzo_e_Dino_Ferrari",
+    "Lunghezza":	"	4909 m",
+    "Curve":	19,
+    "Inaugurazione":	1953,
+    "TempoRecord":	"1.15.484",
+    "Detentore": "Lewis Hamilton",
+    "image": "https://www.digital-news.it/img/palinsesti/2020/10/1604100112-gp-emilia-romagna.jpg"
   },
   {
     "circuitId": 22,
@@ -313,7 +367,13 @@ static lista=[
     "lat": 34.8431,
     "lng": 136.541,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Suzuka_Circuit"
+    "url": "http://en.wikipedia.org/wiki/Suzuka_Circuit",
+    "Lunghezza":	"	5807 m",
+    "Curve":	18,
+    "Inaugurazione":	1962,
+    "TempoRecord":	"1.30.983",
+    "Detentore": "Lewis Hamilton",
+    "image": "https://i.pinimg.com/originals/e1/60/8a/e1608ae6880b3813e79996ea5fc017e6.jpg"
   },
   {
     "circuitId": 23,
@@ -324,7 +384,13 @@ static lista=[
     "lat": 47.2197,
     "lng": 14.7647,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/A1-Ring"
+    "url": "http://en.wikipedia.org/wiki/A1-Ring",
+    "Lunghezza":	"	4318 m",
+    "Curve":	10,
+    "Inaugurazione":	1996,
+    "TempoRecord":	"1.05.619",
+    "Detentore": "Carlos Sainz Jr.",
+    "image": "https://www.formulapassion.it/wp-content/uploads/2013/07/Red-Bull-Ring-990x659.jpg"
   },
   {
     "circuitId": 24,
@@ -335,7 +401,13 @@ static lista=[
     "lat": 24.4672,
     "lng": 54.6031,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Yas_Marina_Circuit"
+    "url": "http://en.wikipedia.org/wiki/Yas_Marina_Circuit",
+    "Lunghezza":	"	5554 m",
+    "Curve":	21,
+    "Inaugurazione":	2009,
+    "TempoRecord":	"1.39.283",
+    "Detentore": "Lewis Hamilton",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/15/9d/d7/64/90-minute-small-group.jpg"
   },
   {
     "circuitId": 25,
@@ -346,7 +418,13 @@ static lista=[
     "lat": -34.6943,
     "lng": -58.4593,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Aut%C3%B3dromo_Oscar_Alfredo_G%C3%A1lvez"
+    "url": "http://en.wikipedia.org/wiki/Aut%C3%B3dromo_Oscar_Alfredo_G%C3%A1lvez",
+    "Lunghezza":	"	4259 m",
+    "Curve":	16,
+    "Inaugurazione":	1952,
+    "TempoRecord":	"	1.27.981",
+    "Detentore": "Gerhard Berger",
+    "image": "https://www.statsf1.com/photos/circuits/buenos.jpg"
   },
   {
     "circuitId": 26,
@@ -357,7 +435,13 @@ static lista=[
     "lat": 36.7083,
     "lng": -6.03417,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Circuito_Permanente_de_Jerez"
+    "url": "http://en.wikipedia.org/wiki/Circuito_Permanente_de_Jerez",
+    "Lunghezza":	"	4423 m",
+    "Curve":	13,
+    "Inaugurazione":	1985,
+    "TempoRecord":	"1.18",
+    "Detentore": "Heinz-Harald Frentzen",
+    "image": "https://f1grandprix.motorionline.com/wp-content/uploads/2021/02/Test_Pirelli_Ferrari_Jerez_-2.jpg"
   },
   {
     "circuitId": 27,
@@ -368,7 +452,13 @@ static lista=[
     "lat": 38.7506,
     "lng": -9.39417,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Aut%C3%B3dromo_do_Estoril"
+    "url": "http://en.wikipedia.org/wiki/Aut%C3%B3dromo_do_Estoril",
+    "Lunghezza":	"	4182 m",
+    "Curve":	13,
+    "Inaugurazione":	1972,
+    "TempoRecord":	"1.14.859",
+    "Detentore": "Damon Hill",
+    "image": "https://i1.wp.com/f1ingenerale.com/wp-content/uploads/2020/10/aerial.jpg?resize=840%2C473&ssl=1"
   },
   {
     "circuitId": 28,
@@ -379,7 +469,13 @@ static lista=[
     "lat": 34.915,
     "lng": 134.221,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/TI_Circuit"
+    "url": "http://en.wikipedia.org/wiki/TI_Circuit",
+    "Lunghezza":	"	3703 m",
+    "Curve":	13,
+    "Inaugurazione":	1992,
+    "TempoRecord":	"1.10.218",
+    "Detentore": "Ayrton Senna",
+    "image": "https://undiecar.com/files/okayama-background.jpg"
   },
   {
     "circuitId": 29,
@@ -390,7 +486,13 @@ static lista=[
     "lat": -34.9272,
     "lng": 138.617,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Adelaide_Street_Circuit"
+    "url": "http://en.wikipedia.org/wiki/Adelaide_Street_Circuit",
+    "Lunghezza":	"	3780 m",
+    "Curve":	16,
+    "Inaugurazione":	1985,
+    "TempoRecord":	"	1.15.381",
+    "Detentore": "Damon Hill",
+    "image": "https://f1grandprix.motorionline.com/wp-content/uploads/2021/01/GP_Australia_rischio_rinvio_.jpg"
   },
   {
     "circuitId": 30,
@@ -401,7 +503,13 @@ static lista=[
     "lat": -25.9894,
     "lng": 28.0767,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Kyalami"
+    "url": "http://en.wikipedia.org/wiki/Kyalami",
+    "Lunghezza":	"	4522 m",
+    "Curve":	16,
+    "Inaugurazione":	1961,
+    "TempoRecord":	"	1.17.578",
+    "Detentore": "Nigel Mansell",
+    "image": "https://www.formulapassion.it/wp-content/uploads/2016/09/Kyalami_2-Custom-587x444.jpg"
   },
   {
     "circuitId": 31,
