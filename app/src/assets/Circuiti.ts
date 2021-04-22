@@ -997,7 +997,13 @@ static lista=[
     "lat": 41.1705,
     "lng": -8.67325,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Circuito_da_Boavista"
+    "url": "http://en.wikipedia.org/wiki/Circuito_da_Boavista",
+    "Lunghezza":	"	4807  m",
+    "Curve":	 20,
+    "Inaugurazione":	1931,
+    "TempoRecord":	"2.27.530",
+    "Detentore": "John Surtees",
+    "image": "http://www.velocidades.pt/wp-content/uploads/2013/07/anpac030713.jpg"
   },
   {
     "circuitId": 60,
@@ -1008,7 +1014,13 @@ static lista=[
     "lat": 33.937,
     "lng": -117.273,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Riverside_International_Raceway"
+    "url": "http://en.wikipedia.org/wiki/Riverside_International_Raceway",
+    "Lunghezza":	"	5271  m",
+    "Curve":	 10 ,
+    "Inaugurazione":	1957,
+    "TempoRecord":	"1.54.4",
+    "Detentore": "Stirling Moss",
+    "image": "https://automotorfargio.files.wordpress.com/2017/12/454156_124051_4fe0002422_p.jpg?w=672"
   },
   {
     "circuitId": 61,
@@ -1019,7 +1031,13 @@ static lista=[
     "lat": 52.4806,
     "lng": 13.2514,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/AVUS"
+    "url": "http://en.wikipedia.org/wiki/AVUS",
+    "Lunghezza":	"	8300  m",
+    "Curve":	 4 ,
+    "Inaugurazione":	1921,
+    "TempoRecord":	"2.04.5",
+    "Detentore": "Tony Brooks",
+    "image": "https://2.bp.blogspot.com/-XMYleebqJbg/UvUluffy0aI/AAAAAAAANnw/acsCVlQK-kY/s1600/3389.jpg"
   },
   {
     "circuitId": 62,
@@ -1030,7 +1048,13 @@ static lista=[
     "lat": 38.7197,
     "lng": -9.20306,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Monsanto_Park_Circuit"
+    "url": "http://en.wikipedia.org/wiki/Monsanto_Park_Circuit",
+    "Lunghezza":	"	5440  m",
+    "Curve":	 9 ,
+    "Inaugurazione":	1954,
+    "TempoRecord":	"2.05.070",
+    "Detentore": "Stirling Moss",
+    "image": "https://iberianmph.files.wordpress.com/2012/07/monsantof1c2012.jpg"
   },
   {
     "circuitId": 63,
@@ -1041,7 +1065,13 @@ static lista=[
     "lat": 27.4547,
     "lng": -81.3483,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Sebring_Raceway"
+    "url": "http://en.wikipedia.org/wiki/Sebring_Raceway",
+    "Lunghezza":    "	6020 m",
+    "Curve":    17,
+    "Inaugurazione":    1950,
+    "TempoRecord":  "   1.40.124",
+    "Detentore": "Fernando Alonso",
+    "image": "https://media.motorbox.com/image/portimao/7/0/3/703994/703994-16x9-lg.jpg"
   },
   {
     "circuitId": 64,
@@ -1052,7 +1082,13 @@ static lista=[
     "lat": 33.5786,
     "lng": -7.6875,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Ain-Diab_Circuit"
+    "url": "http://en.wikipedia.org/wiki/Ain-Diab_Circuit",
+    "Lunghezza":    "7618 m",
+    "Curve":    8,
+    "Inaugurazione":    1957,
+    "TempoRecord":  "   2.22.5",
+    "Detentore": "Stirling Moss",
+    "image": "https://cdn-8.latimages.com/images/mgl/9mexy/s4/open-uri20120927-21855-1dbaihp.jpg"
   },
   {
     "circuitId": 65,
@@ -1063,7 +1099,13 @@ static lista=[
     "lat": 42.475,
     "lng": 14.1508,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Pescara_Circuit"
+    "url": "http://en.wikipedia.org/wiki/Pescara_Circuit",
+    "Lunghezza":    "25579 m",
+    "Curve":    15,
+    "Inaugurazione":    1924,
+    "TempoRecord":  "   9.44.6",
+    "Detentore": "Juan Manuel Fangio",
+    "image": "http://www.motoremotion.it/wp-content/uploads/2014/08/pescara57_01.x45578.jpg"
   },
   {
     "circuitId": 66,
@@ -1074,7 +1116,13 @@ static lista=[
     "lat": 46.9589,
     "lng": 7.40194,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Circuit_Bremgarten"
+    "url": "http://en.wikipedia.org/wiki/Circuit_Bremgarten",
+    "Lunghezza":    "7280 m",
+    "Curve":    11,
+    "Inaugurazione":    1931,
+    "TempoRecord":  "   2.39.7",
+    "Detentore": "Juan Manuel Fangio",
+    "image": "https://millsf1.weebly.com/uploads/2/3/8/4/23842228/p1297.png"
   },
   {
     "circuitId": 67,
@@ -1085,7 +1133,13 @@ static lista=[
     "lat": 41.3903,
     "lng": 2.11667,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Pedralbes_Circuit"
+    "url": "http://en.wikipedia.org/wiki/Pedralbes_Circuit",
+    "Lunghezza":    "6316 m",
+    "Curve":    6,
+    "Inaugurazione":    1946,
+    "TempoRecord":  "   2.10.59",
+    "Detentore": "Alberto Ascari",
+    "image": "https://img.redbull.com/images/c_fill,g_auto,w_1160,h_773/q_auto,f_auto/redbullcom/2016/05/10/1331793936938_2/spanish-grand-prix-pedralbes-1951"
   },
   {
     "circuitId": 68,
@@ -1096,7 +1150,13 @@ static lista=[
     "lat": 28.3487,
     "lng": 77.5331,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Buddh_International_Circuit"
+    "url": "http://en.wikipedia.org/wiki/Buddh_International_Circuit",
+    "Lunghezza":    "5125 m",
+    "Curve":    16,
+    "Inaugurazione":    2011,
+    "TempoRecord":  "   1.27.249",
+    "Detentore": "Sebastian Vettel",
+    "image": "https://www.livegp.it/wp-content/uploads/2020/03/budd_circuit-696x392.jpg"
   },
 {
     "circuitId": 69,
