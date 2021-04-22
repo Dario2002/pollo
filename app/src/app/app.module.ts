@@ -12,6 +12,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ScuderieComponent } from './scuderie/scuderie.component';
 import { CircuitiComponent } from './circuiti/circuiti.component';
 import { GareComponent } from './gare/gare.component';
+import { LeafletModule } from '@asymmetrik/ngx-leaflet';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { GareComponent } from './gare/gare.component';
     FormsModule,
     ReactiveFormsModule,
     AgmCoreModule.forRoot({apiKey: 'AIzaSyBOtW-5KsaDrzQ41dtkFjPceCEu6Ny-B-s'}),
-    NgbModule
+    NgbModule,
+    LeafletModule
   ],
   providers: [],
   bootstrap: [AppComponent]

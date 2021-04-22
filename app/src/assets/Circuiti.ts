@@ -520,7 +520,13 @@ static lista=[
     "lat": 52.8306,
     "lng": -1.37528,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Donington_Park"
+    "url": "http://en.wikipedia.org/wiki/Donington_Park",
+    "Lunghezza":	"	4020 m",
+    "Curve":	12,
+    "Inaugurazione":	1931,
+    "TempoRecord":	"	1.10.458",
+    "Detentore": "Alain Prost",
+    "image": "https://cdn-1.motorsport.com/static/img/amp/5000000/5030000/5036000/5036100/5036142/s6_1006433/1006433.jpg"
   },
   {
     "circuitId": 32,
@@ -531,7 +537,13 @@ static lista=[
     "lat": 19.4042,
     "lng": -99.0907,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez"
+    "url": "http://en.wikipedia.org/wiki/Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez",
+    "Lunghezza":	"	4304 m",
+    "Curve":	17,
+    "Inaugurazione":	1962,
+    "TempoRecord":	"	1.18.741",
+    "Detentore": "	Valtteri Bottas",
+    "image": "https://i.pinimg.com/originals/56/f5/32/56f532f11f5acf2b8047cdad48f88bb6.jpg"
   },
   {
     "circuitId": 33,
@@ -542,7 +554,13 @@ static lista=[
     "lat": 33.4479,
     "lng": -112.075,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Phoenix_street_circuit"
+    "url": "http://en.wikipedia.org/wiki/Phoenix_street_circuit",
+    "Lunghezza":	"	3720 m",
+    "Curve":	15,
+    "Inaugurazione":	1989,
+    "TempoRecord":	"	1.21.434",
+    "Detentore": "	Ayrton Senna",
+    "image": "https://2.bp.blogspot.com/-5QZEi84vZ08/UyMm73B4QRI/AAAAAAAAOhc/tmOKw6z3Q2Y/s1600/ayrton_senna_gp_usa_1991_getty.jpg"
   },
   {
     "circuitId": 34,
@@ -553,7 +571,13 @@ static lista=[
     "lat": 43.2506,
     "lng": 5.79167,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Paul_Ricard_Circuit"
+    "url": "http://en.wikipedia.org/wiki/Paul_Ricard_Circuit",
+    "Lunghezza":	"	5842 m",
+    "Curve":	15,
+    "Inaugurazione":	1970,
+    "TempoRecord":	"	1.32.740",
+    "Detentore": "	Sebastian Vettel",
+    "image": "https://metropolitanmagazine.it/wp-content/uploads/2019/06/1-paul-richard-copertina.jpg"
   },
   {
     "circuitId": 35,
@@ -564,7 +588,13 @@ static lista=[
     "lat": 34.7333,
     "lng": 126.417,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Korean_International_Circuit"
+    "url": "http://en.wikipedia.org/wiki/Korean_International_Circuit",
+    "Lunghezza":	"	5615 m",
+    "Curve":	18,
+    "Inaugurazione":	2010,
+    "TempoRecord":	"	1.39.605",
+    "Detentore": "	Sebastian Vettel",
+    "image": "https://www.formulapassion.it/wp-content/uploads/2012/10/Yeongam-circui-corea-veduta.jpg"
   },
   {
     "circuitId": 36,
@@ -575,7 +605,13 @@ static lista=[
     "lat": -22.9756,
     "lng": -43.395,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Aut%C3%B3dromo_Internacional_Nelson_Piquet"
+    "url": "http://en.wikipedia.org/wiki/Aut%C3%B3dromo_Internacional_Nelson_Piquet",
+    "Lunghezza":	"	4933 m",
+    "Curve":	11,
+    "Inaugurazione":	1977,
+    "TempoRecord":	"	1.32.507",
+    "Detentore": "	Riccardo Patrese",
+    "image": "http://www.bonur.it/fantacircuiti/wp-content/uploads/2018/11/JacarepaguaHDxr.jpg"
   },
   {
     "circuitId": 37,
@@ -586,7 +622,13 @@ static lista=[
     "lat": 42.3298,
     "lng": -83.0401,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Detroit_street_circuit"
+    "url": "http://en.wikipedia.org/wiki/Detroit_street_circuit",
+    "Lunghezza":	"	4023 m",
+    "Curve":	22,
+    "Inaugurazione":	1982,
+    "TempoRecord":	"	1.40.464",
+    "Detentore": "Ayrton Senna",
+    "image": "https://detroitgp.com/assets/belle-isle-aerial.jpg"
   },
   {
     "circuitId": 38,
@@ -597,7 +639,13 @@ static lista=[
     "lat": 51.3569,
     "lng": 0.263056,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Brands_Hatch"
+    "url": "http://en.wikipedia.org/wiki/Brands_Hatch",
+    "Lunghezza":	"	3703 m",
+    "Curve":	 9,
+    "Inaugurazione":	1964,
+    "TempoRecord":	"	1.06.961",
+    "Detentore": "Nelson Piquet",
+    "image": "https://1.bp.blogspot.com/-GXxXurv2ZGQ/Uu2Hegn1QyI/AAAAAAAANk4/G19cs9dvVtU/s1600/Brands-from-the-air.jpg"
   },
   {
     "circuitId": 39,
@@ -608,7 +656,13 @@ static lista=[
     "lat": 52.3888,
     "lng": 4.54092,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Circuit_Zandvoort"
+    "url": "http://en.wikipedia.org/wiki/Circuit_Zandvoort",
+    "Lunghezza":	"	4259 m",
+    "Curve":	 14,
+    "Inaugurazione":	1939,
+    "TempoRecord":	"	1.19.511",
+    "Detentore": "Max Verstappen",
+    "image": "https://f1grandprix.motorionline.com/wp-content/uploads/2019/12/zandvoort-f1-gp-olanda.jpg"
   },
   {
     "circuitId": 40,
@@ -619,7 +673,13 @@ static lista=[
     "lat": 50.9894,
     "lng": 5.25694,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Zolder"
+    "url": "http://en.wikipedia.org/wiki/Zolder",
+    "Lunghezza":	"	3977 m",
+    "Curve":	 10,
+    "Inaugurazione":	1963,
+    "TempoRecord":	"	1.12",
+    "Detentore": "Sébastien Bourdais",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Circuit_Zolder_6-11-2008_16-29-22.jpg/440px-Circuit_Zolder_6-11-2008_16-29-22.jpg"
   },
   {
     "circuitId": 41,
@@ -630,7 +690,13 @@ static lista=[
     "lat": 47.3625,
     "lng": 4.89913,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Dijon-Prenois"
+    "url": "http://en.wikipedia.org/wiki/Dijon-Prenois",
+    "Lunghezza":	"	3801 m",
+    "Curve":	 8,
+    "Inaugurazione":	1972,
+    "TempoRecord":	"	1.05.257",
+    "Detentore": "Alain Prost",
+    "image": "https://labonbonnierehotel.fr/wp-content/uploads/2018/08/circuit-de-dijon-prenois.jpg"
   },
   {
     "circuitId": 42,
@@ -641,7 +707,13 @@ static lista=[
     "lat": 32.7774,
     "lng": -96.7587,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Fair_Park"
+    "url": "http://en.wikipedia.org/wiki/Fair_Park",
+    "Lunghezza":	"	3901 m",
+    "Curve":	 23,
+    "Inaugurazione":	1984,
+    "TempoRecord":	"	1.37.041",
+    "Detentore": "Nigel Mansell",
+    "image": "https://f1grandprix.motorionline.com/wp-content/uploads/2015/02/f1-dallas84.jpg"
   },
   {
     "circuitId": 43,
@@ -652,7 +724,13 @@ static lista=[
     "lat": 33.7651,
     "lng": -118.189,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Long_Beach,_California"
+    "url": "http://en.wikipedia.org/wiki/Long_Beach,_California",
+    "Lunghezza":	"	3167 m",
+    "Curve":	 13,
+    "Inaugurazione":	1975,
+    "TempoRecord":	"	1.06.886",
+    "Detentore": "Sébastien Bourdais",
+    "image": "https://cdn.shortpixel.ai/spai/w_656+q_lossy+ret_img+to_webp/https://www.f1sport.it/wp-content/uploads/2016/06/long_beach_start_1981.jpg"
   },
   {
     "circuitId": 44,
@@ -663,7 +741,13 @@ static lista=[
     "lat": 36.1162,
     "lng": -115.174,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Las_Vegas,_Nevada"
+    "url": "http://en.wikipedia.org/wiki/Las_Vegas,_Nevada",
+    "Lunghezza":	"	3650 m",
+    "Curve":	 14,
+    "Inaugurazione":	1981,
+    "TempoRecord":	"	1.19.639",
+    "Detentore": "Michele Alboreto",
+    "image": "https://i.redd.it/u75zr2gtxkf21.jpg"
   },
   {
     "circuitId": 45,
@@ -674,7 +758,13 @@ static lista=[
     "lat": 40.6171,
     "lng": -3.58558,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Circuito_Permanente_Del_Jarama"
+    "url": "http://en.wikipedia.org/wiki/Circuito_Permanente_Del_Jarama",
+    "Lunghezza":	"	3850 m",
+    "Curve":	 13,
+    "Inaugurazione":	1967,
+    "TempoRecord":	"	1.16.44",
+    "Detentore": "Gilles Villeneuve",
+    "image": "https://cdn.motor1.com/images/mgl/mmYme/s1/reasfaltado-del-circuito-del-jarama.jpg"
   },
   {
     "circuitId": 46,
@@ -685,7 +775,13 @@ static lista=[
     "lat": 42.3369,
     "lng": -76.9272,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Watkins_Glen_International"
+    "url": "http://en.wikipedia.org/wiki/Watkins_Glen_International",
+    "Lunghezza":	"	5552  m",
+    "Curve":	 15,
+    "Inaugurazione":	1948,
+    "TempoRecord":	"	1.35.207",
+    "Detentore": "Johannes van Overbeek",
+    "image": "https://preview.redd.it/gxqrs1jnk5361.jpg?width=1024&format=pjpg&auto=webp&s=55cc9a0e394c748e6945b933f12c5cbb9101af99"
   },
   {
     "circuitId": 47,
@@ -696,7 +792,13 @@ static lista=[
     "lat": 57.2653,
     "lng": 13.6042,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Scandinavian_Raceway"
+    "url": "http://en.wikipedia.org/wiki/Scandinavian_Raceway",
+    "Lunghezza":	"	4025  m",
+    "Curve":	 8,
+    "Inaugurazione":	1968,
+    "TempoRecord":	"	1.24.836",
+    "Detentore": "Niki Lauda",
+    "image": "https://sportscar365.com/wp-content/uploads/2019/09/AnderstorpDTM.jpg"
   },
   {
     "circuitId": 48,
@@ -707,7 +809,13 @@ static lista=[
     "lat": 44.0481,
     "lng": -78.6756,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Mosport"
+    "url": "http://en.wikipedia.org/wiki/Mosport",
+    "Lunghezza":	"	3957  m",
+    "Curve":	 10,
+    "Inaugurazione":	1961,
+    "TempoRecord":	"	1.05.823",
+    "Detentore": "Marco Werner",
+    "image": "https://picolio.auto123.com/art-images/140566/mosport-aerial-inline.jpg"
   },
   {
     "circuitId": 49,
@@ -718,7 +826,13 @@ static lista=[
     "lat": 41.3664,
     "lng": 2.15167,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Montju%C3%AFc_circuit"
+    "url": "http://en.wikipedia.org/wiki/Montju%C3%AFc_circuit",
+    "Lunghezza":	"	3791  m",
+    "Curve":	 11,
+    "Inaugurazione":	1932,
+    "TempoRecord":	"	1.21.800",
+    "Detentore": "Ronnie Peterson",
+    "image": "https://i.pinimg.com/originals/b0/3f/78/b03f78784f57baf3a8c2ee8582dfc771.jpg"
   },
   {
     "circuitId": 50,
@@ -729,7 +843,13 @@ static lista=[
     "lat": 50.6211,
     "lng": 4.32694,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Nivelles-Baulers"
+    "url": "http://en.wikipedia.org/wiki/Nivelles-Baulers",
+    "Lunghezza":	"	3724  m",
+    "Curve":	 7,
+    "Inaugurazione":	1972,
+    "TempoRecord":	"	1.09.82",
+    "Detentore": "Clay Regazzoni",
+    "image": "https://3.bp.blogspot.com/-1N6pWtq6Juk/UwJt_rGTy0I/AAAAAAAANtM/A-cn8OGMajo/w1200-h630-p-k-no-nu/72bel10.jpg"
   },
   {
     "circuitId": 51,
@@ -740,7 +860,13 @@ static lista=[
     "lat": 45.7472,
     "lng": 3.03889,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Charade_Circuit"
+    "url": "http://en.wikipedia.org/wiki/Charade_Circuit",
+    "Lunghezza":	"	8055  m",
+    "Curve":	 51,
+    "Inaugurazione":	1958,
+    "TempoRecord":	"	2.53.9",
+    "Detentore": "Chris Amon",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEEr9Sv9VgCcwUGUnOdGeoF6RHcgVB5AwJ_Xtfyq_4VzIvXUUOPhSYJo4aG77Xlfsm4lk&usqp=CAU"
   },
   {
     "circuitId": 52,
@@ -751,7 +877,13 @@ static lista=[
     "lat": 46.1877,
     "lng": -74.6099,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Circuit_Mont-Tremblant"
+    "url": "http://en.wikipedia.org/wiki/Circuit_Mont-Tremblant",
+    "Lunghezza":	"	4265  m",
+    "Curve":	 15,
+    "Inaugurazione":	1964,
+    "TempoRecord":	"	1.16.776",
+    "Detentore": "Tristan Gommendy",
+    "image": "https://lecircuit.com/wp-content/uploads/2017/06/1001.jpg"
   },
   {
     "circuitId": 53,
@@ -762,7 +894,13 @@ static lista=[
     "lat": 49.3306,
     "lng": 1.00458,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Rouen-Les-Essarts"
+    "url": "http://en.wikipedia.org/wiki/Rouen-Les-Essarts",
+    "Lunghezza":	"	6542  m",
+    "Curve":	 13,
+    "Inaugurazione":	1950,
+    "TempoRecord":	"	2.11.400",
+    "Detentore": "Jack Brabham",
+    "image": "http://www.contagiriblog.com/wp-content/uploads/2013/12/Rouen.jpg"
   },
   {
     "circuitId": 54,
@@ -773,7 +911,14 @@ static lista=[
     "lat": 47.95,
     "lng": 0.224231,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Circuit_de_la_Sarthe#Bugatti_Circuit"
+    "url": "http://en.wikipedia.org/wiki/Circuit_de_la_Sarthe#Bugatti_Circuit",
+    "Lunghezza":	"	4185  m",
+    "Curve":	 11,
+    "Inaugurazione":	1996,
+    "TempoRecord":	"	1.30.713",
+    "Detentore": "Mika Häkkinen",
+    "image": "https://img3.stcrm.it/images/23264978/700x/circuit-des-24-heures.jpg"
+
   },
   {
     "circuitId": 55,
@@ -784,7 +929,13 @@ static lista=[
     "lat": 49.2542,
     "lng": 3.93083,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Reims-Gueux"
+    "url": "http://en.wikipedia.org/wiki/Reims-Gueux",
+    "Lunghezza":	"	8347  m",
+    "Curve":	 7,
+    "Inaugurazione":	1926,
+    "TempoRecord":	"	2.11.003",
+    "Detentore": "Lorenzo Bandini",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/02/28/8f/54/grandstands.jpg"
   },
   {
     "circuitId": 56,
@@ -795,7 +946,13 @@ static lista=[
     "lat": -33.0486,
     "lng": 27.8736,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Prince_George_Circuit"
+    "url": "http://en.wikipedia.org/wiki/Prince_George_Circuit",
+    "Lunghezza":	"	3920  m",
+    "Curve":	 8,
+    "Inaugurazione":	1934,
+    "TempoRecord":	"	1.25.100",
+    "Detentore": "Jack Brabhman",
+    "image": "https://www.automotorinews.it/wp-content/uploads/2021/04/F1-Kyalami.jpg"
   },
   {
     "circuitId": 57,
@@ -806,7 +963,13 @@ static lista=[
     "lat": 47.2039,
     "lng": 14.7478,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Zeltweg_Airfield"
+    "url": "http://en.wikipedia.org/wiki/Zeltweg_Airfield",
+    "Lunghezza":	"	3200  m",
+    "Curve":	 4,
+    "Inaugurazione":	1959,
+    "TempoRecord":	"1.09.840",
+    "Detentore": "Graham Hill",
+    "image": "https://photos.motogp.com/2016/02/18/aerial-p-20150904-00414_10-austria-p-20150904-00414_hires-jpeg-24bit-rgb_0.big.jpg"
   },
   {
     "circuitId": 58,
@@ -817,7 +980,13 @@ static lista=[
     "lat": 53.4769,
     "lng": -2.94056,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Aintree_Motor_Racing_Circuit"
+    "url": "http://en.wikipedia.org/wiki/Aintree_Motor_Racing_Circuit",
+    "Lunghezza":	"	4828  m",
+    "Curve":	 8,
+    "Inaugurazione":	1954,
+    "TempoRecord":	"1.09.840",
+    "Detentore": "Graham Hill",
+    "image": "https://photos.motogp.com/2016/02/18/aerial-p-20150904-00414_10-austria-p-20150904-00414_hires-jpeg-24bit-rgb_0.big.jpg"
   },
   {
     "circuitId": 59,
@@ -929,7 +1098,7 @@ static lista=[
     "alt": "\\N",
     "url": "http://en.wikipedia.org/wiki/Buddh_International_Circuit"
   },
-  {
+{
     "circuitId": 69,
     "circuitRef": "americas", //
     "name": "Circuit of the Americas",
@@ -938,7 +1107,13 @@ static lista=[
     "lat": 30.1328,
     "lng": -97.6411,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Circuit_of_the_Americas"
+    "url": "http://en.wikipedia.org/wiki/Circuit_of_the_Americas",
+    "Lunghezza":    "5513 m",
+    "Curve":    20,
+    "Inaugurazione":    2012,
+    "TempoRecord":  "   1.36.169",
+    "Detentore": "Charles Leclerc",
+    "image": "http://www.horsemoonpost.com/newsite/wp-content/uploads/2013/11/20131115-circuit-of-the-americas-from-the-air-660x480.jpg"
   },
   {
     "circuitId": 70,
@@ -949,7 +1124,13 @@ static lista=[
     "lat": 47.2197,
     "lng": 14.7647,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Red_Bull_Ring"
+    "url": "http://en.wikipedia.org/wiki/Red_Bull_Ring",
+    "Lunghezza":    "4318 m",
+    "Curve":    10,
+    "Inaugurazione": 1996,
+    "TempoRecord":  "   1.05.619",
+    "Detentore": "Carlos Sainz",
+    "image": "https://www.formulapassion.it/wp-content/uploads/2013/07/Red-Bull-Ring-990x659.jpg"
   },
   {
     "circuitId": 71,
@@ -960,8 +1141,15 @@ static lista=[
     "lat": 43.4057,
     "lng": 39.9578,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Sochi_Autodrom"
+    "url": "http://en.wikipedia.org/wiki/Sochi_Autodrom",
+    "Lunghezza":    "   5848 m",
+    "Curve":    18,
+    "Inaugurazione":    2014,
+    "TempoRecord":  "   1.35.761",
+    "Detentore": "Lewis Hamilton",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/0c/90/ae/5f/the-sochi-circuit.jpg"
   },
+
   {
     "circuitId": 72,
     "circuitRef": "port imperial", //
@@ -971,7 +1159,13 @@ static lista=[
     "lat": 40.7769,
     "lng": -74.0111,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Port_Imperial_Street_Circuit"
+    "url": "http://en.wikipedia.org/wiki/Port_Imperial_Street_Circuit",
+    "Lunghezza":    "5200 m",
+    "Curve":    19,
+    "Inaugurazione":    2021,
+    "TempoRecord":  "   Not Any",
+    "Detentore": "Not Any",
+    "image": "https://image.routeyou.com/shrink/fit/400x300/ef2fbc340ffe5d6bd70fc8865bb1959c_a4fbe299dc1050547257590f88dc3f1a9c6b9132.jpg"
   },
   {
     "circuitId": 73,
@@ -982,18 +1176,31 @@ static lista=[
     "lat": 40.3725,
     "lng": 49.8533,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Baku_City_Circuit"
+    "url": "http://en.wikipedia.org/wiki/Baku_City_Circuit",
+    "Lunghezza":    "6300 m",
+    "Curve":    20,
+    "Inaugurazione":    2016,
+    "TempoRecord":  "1.41.009",
+    "Detentore": "Charles Leclerc",
+    "image": "https://sport.periodicodaily.com/wp-content/uploads/2019/04/f1-baku-circuito.jpg"
   },
+
   {
     "circuitId": 74,
-    "circuitRef": "hanoi", //
+    "circuitRef": "hanoi",
     "name": "Hanoi Street Circuit",
     "location": "Hanoi",
     "country": "Vietnam",
     "lat": 21.0166,
     "lng": 105.766,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Hanoi_Street_Circuit"
+    "url": "http://en.wikipedia.org/wiki/Hanoi_Street_Circuit",
+    "Lunghezza":    "   5613 m",
+    "Curve":    23,
+    "Inaugurazione":    2021,
+    "TempoRecord":  "   Not Any",
+    "Detentore": "Not Any",
+    "image": "https://e0.365dm.com/20/03/1600x900/skysports-vietnam-gp-2020-hanoi_4944625.jpg"
   },
   {
     "circuitId": 75,
@@ -1004,8 +1211,15 @@ static lista=[
     "lat": 37.227,
     "lng": -8.6267,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Algarve_International_Circuit"
+    "url": "http://en.wikipedia.org/wiki/Algarve_International_Circuit",
+    "Lunghezza":    "4653 m",
+    "Curve":    15,
+    "Inaugurazione":    2008,
+    "TempoRecord":  "1.18.750",
+    "Detentore": "Lewis Hamilton",
+    "image": "https://images2-motori.gazzettaobjects.it/corsedimoto/2019/01/09/12/30/cover-portimao-e1510397300130-375x289.jpeg"
   },
+
   {
     "circuitId": 76,
     "circuitRef": "mugello", //
@@ -1015,7 +1229,13 @@ static lista=[
     "lat": 43.9975,
     "lng": 11.3719,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Mugello_Circuit"
+    "url": "http://en.wikipedia.org/wiki/Mugello_Circuit",
+    "Lunghezza":    "5245 m",
+    "Curve":    15,
+    "Inaugurazione":    1974,
+    "TempoRecord":  "1.18.833",
+    "Detentore": "Lewis Hamilton",
+    "image": "https://www.promoracing.it/media/circuiti/0317_Mugello_Elicottero_ambience.jpg"
   },
   {
     "circuitId": 77, //
@@ -1026,7 +1246,13 @@ static lista=[
     "lat": 21.5433,
     "lng": 39.1728,
     "alt": "\\N",
-    "url": "http://en.wikipedia.org/wiki/Jeddah_Street_Circuit"
+    "url": "http://en.wikipedia.org/wiki/Jeddah_Street_Circuit",
+    "Lunghezza":    "   6175 m",
+    "Curve":    27,
+    "Inaugurazione":    2021,
+    "TempoRecord":  "   Not Any",
+    "Detentore": "Not Any",
+    "image": "https://cdn-autosprint.corrieredellosport.it/images/2020/11/20/145242843-f5585622-10b6-4bea-a8cd-8f81ba6b5ae6.jpg"
   }
 ]
 }
