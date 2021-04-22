@@ -13,6 +13,7 @@ import { ScuderieComponent } from './scuderie/scuderie.component';
 import { CircuitiComponent } from './circuiti/circuiti.component';
 import { GareComponent } from './gare/gare.component';
 import { LeafletModule } from '@asymmetrik/ngx-leaflet';
+import { LeafletComponent } from './leaflet/leaflet.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { LeafletModule } from '@asymmetrik/ngx-leaflet';
     PilotComponent,
     ScuderieComponent,
     CircuitiComponent,
-    GareComponent
+    GareComponent,
+    LeafletComponent
   ],
   imports: [
     BrowserModule,

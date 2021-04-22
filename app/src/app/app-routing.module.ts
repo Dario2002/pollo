@@ -6,6 +6,7 @@ import { PilotComponent } from './pilot/pilot.component';
 import { ScuderieComponent } from './scuderie/scuderie.component';
 import { CircuitiComponent } from './circuiti/circuiti.component';
 import { GareComponent } from './gare/gare.component';
+import { LeafletComponent } from './leaflet/leaflet.component';
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'map', component: MapComponent },
@@ -13,6 +14,7 @@ const routes: Routes = [
    { path: 'scuderie', component: ScuderieComponent },
   { path: 'circuiti', component: CircuitiComponent },
    { path: 'gare', component: GareComponent },
+   { path: 'leaflet', component: LeafletComponent },
   { path: '',   redirectTo: '/home', pathMatch: 'full' }
 ];
 
