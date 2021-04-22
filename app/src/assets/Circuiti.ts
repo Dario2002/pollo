@@ -984,9 +984,9 @@ static lista=[
     "Lunghezza":	"	4828  m",
     "Curve":	 8,
     "Inaugurazione":	1954,
-    "TempoRecord":	"1.09.840",
-    "Detentore": "Graham Hill",
-    "image": "https://photos.motogp.com/2016/02/18/aerial-p-20150904-00414_10-austria-p-20150904-00414_hires-jpeg-24bit-rgb_0.big.jpg"
+    "TempoRecord":	"1.55.0",
+    "Detentore": "Jim Clark",
+    "image": "https://www.webbaviation.co.uk/aerial/_data/i/galleries/Merseyside/Liverpool/Aintree_Racecourse_ba08061ap-me.jpg"
   },
   {
     "circuitId": 59,

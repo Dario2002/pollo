@@ -5,6 +5,7 @@ import { Circuiti } from 'src/assets/Circuiti';
 import { FormBuilder } from '@angular/forms';
 import { ChangeDetectionStrategy } from '@angular/compiler/src/core';
 import { Marker } from '../models/marker.model';
+import {latLng, tileLayer} from 'leaflet';
 
 @Component({
   selector: 'app-map',
@@ -12,6 +13,17 @@ import { Marker } from '../models/marker.model';
   styleUrls: ['./map.component.css'],
 })
 export class MapComponent {
+
+    options = {
+    layers: [
+      tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; OpenStreetMap contributors'
+      })
+    ],
+    zoom: 7,
+    center: latLng([ 46.879966, -121.726909 ])
+  };
+
   height = window.innerHeight;
   circuitoScelto;
   pilotaScelto;
