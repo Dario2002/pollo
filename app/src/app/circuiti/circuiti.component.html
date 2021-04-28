@@ -1,5 +1,5 @@
-<div class="container-fluid">
-  <br><br><br>
+<div class="container border ">
+  <br>
   <div class="row">
     <!--<div class="col-3">-->
       <form [formGroup]="searchForm" (ngSubmit)="search()">
@@ -16,7 +16,7 @@
       <div class="container-fluid text-center">
 
         <div *ngIf="active">
-          <h1 style="color:rgb(230, 14, 14);">{{circuito.name}} </h1> <br>
+          <h1> {{circuito.name}} </h1> <br>
           <img src="{{ circuito.image }}" width="600" height="300"> <br><br>
           <p><b>LOCALITÀ:</b> {{circuito.location}}</p>
           <p><b>NAZIONE:</b> {{circuito.country}} </p>

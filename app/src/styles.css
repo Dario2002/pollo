@@ -7,7 +7,7 @@ height: 100%;
 body
 {
   height: 100%;
-    background: url('https://cdn.wallpapersafari.com/81/7/SiW3DA.jpg') no-repeat center center fixed;
+  background: url('https://i.redd.it/9ejezlefvg701.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -17,7 +17,11 @@ body
 
 .container {
 background :rgba(255,255,255,0.3);
+margin-top: 25px;
+
 }
 
 /*https://cdn.wallpapersafari.com/81/7/SiW3DA.jpg*/
 /*https://images8.alphacoders.com/990/990154.jpg*/
+/*https://www.mercedesamgf1.com/en/news/2020/2020-turkish-grand-prix/2020-turkish-grand-prix-mercedes-qualifying-hamilton-bottas/_jcr_content/root/slider/sliderchilditems/slideritem/image/MQ7-0-image-20201114152154/00M251796_4252.jpeg*/
+

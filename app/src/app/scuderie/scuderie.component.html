@@ -1,5 +1,5 @@
-<div class="container-fluid">
-  <br><br><br>
+<div class="container">
+  <br>
   <div class="row">
     <!--<div class="col-3">-->
       <form [formGroup]="searchForm" (ngSubmit)="search()">
@@ -8,16 +8,16 @@
         </div>
 
         <button type="submit" class="btn btn-danger">Search</button>
-      <br>
-      <br>
-      </form>
 
+        <br>
+        <br>
+      </form>
 
       <div class="container-fluid text-center">
 
         <div *ngIf="active">
-          <h1 style="color:rgb(230, 14, 14);">{{scuderia.name}} </h1> <br>
-          <img src="{{ scuderia.image }}" width="600" height="300"> <br><br>
+          <h1>{{scuderia.name}} </h1> <br>
+          <img src="{{ scuderia.image }}" width="250" height="250"> <br><br>
           <p><b>ANNO DI ENTRATA:</b> {{scuderia.firstTeamEntry}}</p>
           <p><b>BASE:</b> {{scuderia.Base}} </p>
           <p><b>NAZIONE:</b> {{scuderia.Country}}</p>
@@ -26,13 +26,9 @@
           <p><b>POLE POSITIONS:</b> {{scuderia.PolePositions}}</p>
           <p><b>GIRI PIÙ VELOCI:</b> {{scuderia.FastestLaps}}</p>
           <p><b>PILOTI ATTUALI:</b> {{scuderia.CurrentPilots}}</p>
-
-
-
         </div>
 
       </div>
-
     <!--</div>-->
   </div>
 </div>
