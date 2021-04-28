@@ -1,13 +1,14 @@
+<br><br><br>
 <div class="container border ">
   <br>
   <div class="row">
     <!--<div class="col-3">-->
       <form [formGroup]="searchForm" (ngSubmit)="search()">
         <div class="form-group">
-          <input class="form-control" placeholder="Scrivere il nome del circuito" type="text" formControlName="name" required>
+          <input class="form-control ml-3" placeholder="Scrivere il nome del circuito" type="text" formControlName="name" required>
         </div>
 
-        <button type="submit" class="btn btn-danger">Search</button>
+        <button type="submit" class="btn btn-danger ml-3">Search</button>
       <br>
       <br>
       </form>
@@ -18,13 +19,13 @@
         <div *ngIf="active">
           <h1> {{circuito.name}} </h1> <br>
           <img src="{{ circuito.image }}" width="600" height="300"> <br><br>
-          <p><b>LOCALITÀ:</b> {{circuito.location}}</p>
-          <p><b>NAZIONE:</b> {{circuito.country}} </p>
-          <p><b>LUNGHEZZA:</b> {{circuito.Lunghezza}}</p>
-          <p><b>CURVE:</b> {{circuito.Curve}}</p>
-          <p><b>INAUGURAZIONE:</b> {{circuito.Inaugurazione}}</p>
-          <p><b>TEMPO RECORD:</b> {{circuito.TempoRecord}}</p>
-          <p><b>DETENTORE:</b> {{circuito.Detentore}}</p>
+          <p><b>LOCALITÀ: {{circuito.location}}</b></p>
+          <p><b>NAZIONE:{{circuito.country}}</b> </p>
+          <p><b>LUNGHEZZA:{{circuito.Lunghezza}}</b></p>
+          <p><b>CURVE: {{circuito.Curve}}</b></p>
+          <p><b>INAUGURAZIONE: {{circuito.Inaugurazione}}</b></p>
+          <p><b>TEMPO RECORD: {{circuito.TempoRecord}}</b></p>
+          <p><b>DETENTORE: {{circuito.Detentore}}</b></p>
 
 
 
@@ -35,3 +36,4 @@
     <!--</div>-->
   </div>
 </div>
+<br><br>

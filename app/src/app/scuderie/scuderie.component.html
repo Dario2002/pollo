@@ -1,13 +1,14 @@
-<div class="container">
+<br><br><br>
+<div class="container border">
   <br>
   <div class="row">
     <!--<div class="col-3">-->
       <form [formGroup]="searchForm" (ngSubmit)="search()">
         <div class="form-group">
-          <input class="form-control" placeholder="Scrivere il nome della scuderia" type="text" formControlName="name" required>
+          <input class="form-control ml-3" placeholder="Scrivere il nome della scuderia" type="text" formControlName="name" required>
         </div>
 
-        <button type="submit" class="btn btn-danger">Search</button>
+        <button type="submit" class="btn btn-danger ml-3">Search</button>
 
         <br>
         <br>
@@ -18,14 +19,14 @@
         <div *ngIf="active">
           <h1>{{scuderia.name}} </h1> <br>
           <img src="{{ scuderia.image }}" width="250" height="250"> <br><br>
-          <p><b>ANNO DI ENTRATA:</b> {{scuderia.firstTeamEntry}}</p>
-          <p><b>BASE:</b> {{scuderia.Base}} </p>
-          <p><b>NAZIONE:</b> {{scuderia.Country}}</p>
-          <p><b>CAMPIONATI VINTI:</b> {{scuderia.WorldChampionships}}</p>
-          <p><b>POSIZIONE PIÙ ALTA RAGGIUNTA:</b> {{scuderia.HighestRaceFinish}}</p>
-          <p><b>POLE POSITIONS:</b> {{scuderia.PolePositions}}</p>
-          <p><b>GIRI PIÙ VELOCI:</b> {{scuderia.FastestLaps}}</p>
-          <p><b>PILOTI ATTUALI:</b> {{scuderia.CurrentPilots}}</p>
+          <p><b>ANNO DI ENTRATA: {{scuderia.firstTeamEntry}}</b></p>
+          <p><b>BASE: {{scuderia.Base}}</b> </p>
+          <p><b>NAZIONE: {{scuderia.Country}}</b></p>
+          <p><b>CAMPIONATI VINTI: {{scuderia.WorldChampionships}}</b></p>
+          <p><b>POSIZIONE PIÙ ALTA RAGGIUNTA: {{scuderia.HighestRaceFinish}}</b></p>
+          <p><b>POLE POSITIONS: {{scuderia.PolePositions}}</b></p>
+          <p><b>GIRI PIÙ VELOCI: {{scuderia.FastestLaps}}</b></p>
+          <p><b>PILOTI ATTUALI: {{scuderia.CurrentPilots}}</b></p>
         </div>
 
       </div>

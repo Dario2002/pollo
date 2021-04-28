@@ -1,1 +1,14 @@
+h1{
+  color:white;
+}
+
+input {
+  width: 240px;
+}
+
+div{
+  color:rgb(255, 255, 255);
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
 

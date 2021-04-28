@@ -1,3 +1,4 @@
+<br><br><br>
 <div class="container border ">
 
   <br>
@@ -5,11 +6,12 @@
     <!--<div class="col-3">-->
       <form [formGroup]="searchForm" (ngSubmit)="search()">
         <div class="form-group">
-          <input class="form-control" placeholder="Scrivere il nome del pilota" type="text" formControlName="name" required>
+          <input class="form-control ml-3" placeholder="Scrivere il nome del pilota" type="text" formControlName="name" required>
         </div>
 
-        <button type="submit" class="btn btn-danger">Search</button>
-
+        <button type="submit" class="btn btn-danger ml-3">Search</button>
+        <br>
+      <br>
       </form>
 
 
@@ -18,17 +20,17 @@
         <div *ngIf="active">
           <h1>{{pilota.firstName}} {{pilota.lastName}} </h1> <br>
           <img src="{{ pilota.image }}"> <br><br>
-          <p><b>NAZIONALITÀ:</b> {{pilota.nationality}}</p>
-          <p><b>LUOGO DI NASCITA:</b> {{pilota.placeOfBirth}} </p>
-          <p><b>DATA DI NASCITÀ:</b> {{pilota.dateOfBirth}}</p>
-          <p><b>AUTO:</b> {{pilota.car}}</p>
-          <p><b>PODI:</b> {{pilota.podiums}}</p>
-          <p><b>POLE POSITIONS:</b> {{pilota.polePosition}}</p>
-          <p><b>GP SVOLTI:</b> {{pilota.participatingGPs}}</p>
-          <p><b>GP VINTI:</b> {{pilota.highestposGPs}}</p>
-          <p><b>PUNTI OTTENUTI:</b> {{pilota.earnedPoint}}</p>
-          <p><b>CAMPIONATI VINTI:</b> {{pilota.championshipsWon}}</p>
-          <p><b>DESCRIZIONE:</b> {{pilota.biografy}}</p>
+          <p><b>NAZIONALITÀ: {{pilota.nationality}}</b></p>
+          <p><b>LUOGO DI NASCITA: {{pilota.placeOfBirth}}</b> </p>
+          <p><b>DATA DI NASCITÀ: {{pilota.dateOfBirth}}</b></p>
+          <p><b>AUTO: {{pilota.car}}</b></p>
+          <p><b>PODI: {{pilota.podiums}}</b></p>
+          <p><b>POLE POSITIONS: {{pilota.polePosition}}</b></p>
+          <p><b>GP SVOLTI: {{pilota.participatingGPs}}</b></p>
+          <p><b>GP VINTI: {{pilota.highestposGPs}}</b></p>
+          <p><b>PUNTI OTTENUTI: {{pilota.earnedPoint}}</b></p>
+          <p><b>CAMPIONATI VINTI: {{pilota.championshipsWon}}</b></p>
+          <p><b>DESCRIZIONE: {{pilota.biografy}}</b></p>
 
 
         </div>
