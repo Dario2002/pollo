@@ -24,7 +24,7 @@
 
           </form>
           <br><br>
-          <form [formGroup]="pilotaForm" (ngSubmit)="submit1()">
+          <form [formGroup]="pilotaForm" (ngSubmit)="submitPilota()">
           <input class="form-control" id="driverRef" placeholder="Inserisci il nome di un pilota" type="text" formControlName="nome" required>
           &nbsp;
           <button type="submit" class="btn btn-danger">Search</button>
@@ -32,12 +32,19 @@
           </form>
 
           <br><br>
-          <form [formGroup]="scuderiaForm" (ngSubmit)="submit2()">
+          <form [formGroup]="scuderiaForm" (ngSubmit)="submitScuderia()">
           <input class="form-control" id="constructorRef" placeholder="Inserisci il nome di una scuderia" type="text" formControlName="nome" required>
           &nbsp;
           <button type="submit" class="btn btn-danger">Search</button>
 
+
+
           </form>
+
+          <button type="submit"  value="SubmitRefresh">Submit</button>
+
+
+
       </div>
       </div>
 </div>

@@ -31,7 +31,7 @@ export class LeafletComponent implements OnInit {
   });
   circuito: any = null;
 
-  iconaBool = false;
+  //iconaBool = false;
 
   onMapReady(map: Map) {
    this.map = map;
@@ -126,13 +126,98 @@ export class LeafletComponent implements OnInit {
     }
     this.circuitoForm.reset();
   }
+  iconapilota;
 
-  submit1() {
+  submitPilota() {
+    let data = this.pilotaForm.value;
+    let a;
+
+
+
+    for (a in Piloti.listaPil) {
+      console.log(Piloti.listaPil[a]['driverRef'] );
+      if (Piloti.listaPil[a]['driverRef'] == data.nome) {
+        this.chosen = false;
+        let pilotaScelto = Piloti.listaPil[a];
+
+        this.iconapilota = marker([pilotaScelto['lat'], pilotaScelto['lng']], {
+          icon: icon({
+
+            iconSize: [80, 80],
+            iconAnchor: [40, 40],
+            iconUrl: `./assets/img/${pilotaScelto['driverRef'].toLowerCase()}.png`,
+            iconRetinaUrl: `./assets/img/${pilotaScelto['driverRef'].toLowerCase()}.png`
+
+            //shadowUrl: 'assets/img/bandierina.png'
+
+          })
+        })
+
+
+          this.iconapilota.addTo(this.map);
+
+
+
+
+        this.map.panTo(new L.LatLng( pilotaScelto['lat'], pilotaScelto['lng']));
+
+
+        this.chosen = true;
+      }
+    }
+    this.pilotaForm.reset();
 
   }
-  submit2() {
+  iconascuderia;
+
+  submitScuderia() {
+    let data = this.scuderiaForm.value;
+    let a;
+
+
+
+    for (a in Scuderie.listascud) {
+      console.log(Scuderie.listascud[a]['constructorRef'] );
+      if (Scuderie.listascud[a]['constructorRef'] == data.nome) {
+        this.chosen = false;
+        let scuderiaScelto = Scuderie.listascud[a];
+
+        this.iconascuderia = marker([scuderiaScelto['lat'], scuderiaScelto['lng']], {
+          icon: icon({
+
+            iconSize: [80, 80],
+            iconAnchor: [40, 40],
+            iconUrl: `./assets/img/${scuderiaScelto['constructorRef'].toLowerCase()}.png`,
+            iconRetinaUrl: `./assets/img/${scuderiaScelto['constructorRef'].toLowerCase()}.png`
+
+            //shadowUrl: 'assets/img/bandierina.png'
+
+          })
+        })
+
+
+          this.iconascuderia.addTo(this.map);
+
+
+
+
+        this.map.panTo(new L.LatLng( scuderiaScelto['lat'], scuderiaScelto['lng']));
+
+
+        this.chosen = true;
+      }
+    }
+    this.scuderiaForm.reset();
 
   }
+  //this.map.removeLayer(markers);
+
+  SubmitRefresh(){
+    this.map.eachLayer((layer) => {
+    layer.remove();
+  });
+  }
+
 
   ngOnInit(): void {
   }
