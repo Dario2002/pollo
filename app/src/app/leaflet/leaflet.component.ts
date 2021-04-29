@@ -6,6 +6,7 @@ import { FormBuilder } from '@angular/forms';
 import { ChangeDetectionStrategy } from '@angular/compiler/src/core';
 import { Marker } from '../models/marker.model';
 import { icon, Map, latLng, marker, polyline, tileLayer } from 'leaflet';
+import * as L from 'leaflet';
 
 @Component({
   selector: 'app-leaflet',
@@ -14,6 +15,9 @@ import { icon, Map, latLng, marker, polyline, tileLayer } from 'leaflet';
 })
 export class LeafletComponent implements OnInit {
 
+  lng: number = Circuiti.lista[5].lng;
+  lat: number = Circuiti.lista[5].lat;
+  chosen: boolean = false;
   map : Map;
   circuitoForm = this.formBuilder.group({
     nome: ''
@@ -26,6 +30,8 @@ export class LeafletComponent implements OnInit {
     nome: ''
   });
   circuito: any = null;
+
+  iconaBool = false;
 
   onMapReady(map: Map) {
    this.map = map;
@@ -74,10 +80,12 @@ export class LeafletComponent implements OnInit {
   };
 
   options = {
-    layers: [this.streetMaps, this.summit],
+    layers: [this.streetMaps],
     zoom: 7,
     center: latLng([46.879966, -121.726909])
   };
+
+  iconacircuito;
 
   submitCircuito() {
 
@@ -88,9 +96,10 @@ export class LeafletComponent implements OnInit {
     for (a in Circuiti.lista) {
       console.log(Circuiti.lista[a]['circuitRef'] );
       if (Circuiti.lista[a]['circuitRef'] == data.nome) {
-
+        this.chosen = false;
         let circuitoScelto = Circuiti.lista[a];
-         circuito = marker([circuitoScelto['lat'], circuitoScelto['lng']], {
+
+        this.iconacircuito = marker([circuitoScelto['lat'], circuitoScelto['lng']], {
           icon: icon({
             iconSize: [80, 80],
             iconAnchor: [40, 40],
@@ -98,12 +107,21 @@ export class LeafletComponent implements OnInit {
             iconRetinaUrl: 'assets/img/bandierina.png'
 
             //shadowUrl: 'assets/img/bandierina.png'
+
           })
         })
 
-        circuito.addTo(this.map)
+
+          this.iconacircuito.addTo(this.map);
+
+
+
+
+        this.map.panTo(new L.LatLng( circuitoScelto['lat'], circuitoScelto['lng']));
 
         console.log(circuito);
+
+        this.chosen = true;
       }
     }
     this.circuitoForm.reset();
