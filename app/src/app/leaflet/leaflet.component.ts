@@ -31,6 +31,7 @@ export class LeafletComponent implements OnInit {
   });
   circuito: any = null;
 
+
   //iconaBool = false;
 
   onMapReady(map: Map) {
@@ -109,8 +110,8 @@ export class LeafletComponent implements OnInit {
             //shadowUrl: 'assets/img/bandierina.png'
 
           })
-        })
 
+        })
 
           this.iconacircuito.addTo(this.map);
 
@@ -119,12 +120,14 @@ export class LeafletComponent implements OnInit {
 
         this.map.panTo(new L.LatLng( circuitoScelto['lat'], circuitoScelto['lng']));
 
+
         console.log(circuito);
 
         this.chosen = true;
       }
     }
     this.circuitoForm.reset();
+
   }
   iconapilota;
 
@@ -215,6 +218,7 @@ export class LeafletComponent implements OnInit {
   SubmitRefresh(){
     this.map.eachLayer((layer) => {
     layer.remove();
+
   });
   }
 

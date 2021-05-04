@@ -23,7 +23,7 @@ static lista=[
     "circuitRef": "sepang",
     "name": "Sepang International Circuit", //
     "location": "Kuala Lumpur",
-    "country": "Malaysia",
+    "country": "Malesia",
     "lat": 2.76083,
     "lng": 101.738,
     "alt": "\\N",
@@ -57,7 +57,7 @@ static lista=[
     "circuitRef": "catalunya",
     "name": "Circuit de Barcelona-Catalunya", //
     "location": "Montmeló",
-    "country": "Spain",
+    "country": "Spagna",
     "lat": 41.57,
     "lng": 2.26111,
     "alt": "\\N",
@@ -74,7 +74,7 @@ static lista=[
     "circuitRef": "istanbul", //
     "name": "Istanbul Park",
     "location": "Istanbul",
-    "country": "Turkey",
+    "country": "Turchia",
     "lat": 40.9517,
     "lng": 29.405,
     "alt": "\\N",
@@ -125,7 +125,7 @@ static lista=[
     "circuitRef": "magny cours", //
     "name": "Circuit de Nevers Magny-Cours",
     "location": "Magny Cours",
-    "country": "France",
+    "country": "Francia",
     "lat": 46.8642,
     "lng": 3.16361,
     "alt": "\\N",
@@ -142,7 +142,7 @@ static lista=[
     "circuitRef": "silverstone", //
     "name": "Silverstone Circuit",
     "location": "Silverstone",
-    "country": "UK",
+    "country": "Regno Unito",
     "lat": 52.0786,
     "lng": -1.01694,
     "alt": "\\N",
@@ -159,7 +159,7 @@ static lista=[
     "circuitRef": "hockenheimring", //
     "name": "Hockenheimring",
     "location": "Hockenheim",
-    "country": "Germany",
+    "country": "Germania",
     "lat": 49.3278,
     "lng": 8.56583,
     "alt": "\\N",
@@ -176,7 +176,7 @@ static lista=[
     "circuitRef": "hungaroring", //
     "name": "Hungaroring",
     "location": "Budapest",
-    "country": "Hungary",
+    "country": "Ungheria",
     "lat": 47.5789,
     "lng": 19.2486,
     "alt": "\\N",
@@ -193,7 +193,7 @@ static lista=[
     "circuitRef": "valencia", //
     "name": "Valencia Street Circuit",
     "location": "Valencia",
-    "country": "Spain",
+    "country": "Spagna",
     "lat": 39.4589,
     "lng": -0.331667,
     "alt": "\\N",
@@ -210,7 +210,7 @@ static lista=[
     "circuitRef": "spa",
     "name": "Circuit de Spa-Francorchamps", //
     "location": "Spa",
-    "country": "Belgium",
+    "country": "Belgio",
     "lat": 50.4372,
     "lng": 5.97139,
     "alt": "\\N",
@@ -227,7 +227,7 @@ static lista=[
     "circuitRef": "monza", //
     "name": "Autodromo Nazionale di Monza",
     "location": "Monza",
-    "country": "Italy",
+    "country": "Italia",
     "lat": 45.6156,
     "lng": 9.28111,
     "alt": "\\N",
@@ -261,7 +261,7 @@ static lista=[
     "circuitRef": "fuji", //
     "name": "Fuji Speedway",
     "location": "Oyama",
-    "country": "Japan",
+    "country": "Giappone",
     "lat": 35.3717,
     "lng": 138.927,
     "alt": "\\N",
@@ -278,7 +278,7 @@ static lista=[
     "circuitRef": "shanghai", //
     "name": "Shanghai International Circuit",
     "location": "Shanghai",
-    "country": "China",
+    "country": "Cina",
     "lat": 31.3389,
     "lng": 121.22,
     "alt": "\\N",
@@ -295,7 +295,7 @@ static lista=[
     "circuitRef": "interlagos", //
     "name": "Autódromo José Carlos Pace",
     "location": "São Paulo",
-    "country": "Brazil",
+    "country": "Brasile",
     "lat": -23.7036,
     "lng": -46.6997,
     "alt": "\\N",
@@ -329,7 +329,7 @@ static lista=[
     "circuitRef": "nurburgring", //
     "name": "Nürburgring",
     "location": "Nürburg",
-    "country": "Germany",
+    "country": "Germania",
     "lat": 50.3356,
     "lng": 6.9475,
     "alt": "\\N",
@@ -346,7 +346,7 @@ static lista=[
     "circuitRef": "imola", //
     "name": "Autodromo Enzo e Dino Ferrari",
     "location": "Imola",
-    "country": "Italy",
+    "country": "Italia",
     "lat": 44.3439,
     "lng": 11.7167,
     "alt": "\\N",
@@ -363,7 +363,7 @@ static lista=[
     "circuitRef": "suzuka", //
     "name": "Suzuka Circuit",
     "location": "Suzuka",
-    "country": "Japan",
+    "country": "Giappone",
     "lat": 34.8431,
     "lng": 136.541,
     "alt": "\\N",
@@ -397,7 +397,7 @@ static lista=[
     "circuitRef": "yas marina", //
     "name": "Yas Marina Circuit",
     "location": "Abu Dhabi",
-    "country": "UAE",
+    "country": "Emirati Arabi Uniti",
     "lat": 24.4672,
     "lng": 54.6031,
     "alt": "\\N",
@@ -431,7 +431,7 @@ static lista=[
     "circuitRef": "jerez", //
     "name": "Circuito de Jerez",
     "location": "Jerez de la Frontera",
-    "country": "Spain",
+    "country": "Spagna",
     "lat": 36.7083,
     "lng": -6.03417,
     "alt": "\\N",
@@ -448,7 +448,7 @@ static lista=[
     "circuitRef": "estoril",
     "name": "Autódromo do Estoril", //
     "location": "Estoril",
-    "country": "Portugal",
+    "country": "Portogallo",
     "lat": 38.7506,
     "lng": -9.39417,
     "alt": "\\N",
@@ -465,7 +465,7 @@ static lista=[
     "circuitRef": "okayama", //
     "name": "Okayama International Circuit",
     "location": "Okayama",
-    "country": "Japan",
+    "country": "Giappone",
     "lat": 34.915,
     "lng": 134.221,
     "alt": "\\N",
@@ -499,7 +499,7 @@ static lista=[
     "circuitRef": "kyalami", //
     "name": "Kyalami",
     "location": "Midrand",
-    "country": "South Africa",
+    "country": "Sud Africa",
     "lat": -25.9894,
     "lng": 28.0767,
     "alt": "\\N",
@@ -516,7 +516,7 @@ static lista=[
     "circuitRef": "donington", //
     "name": "Donington Park",
     "location": "Castle Donington",
-    "country": "UK",
+    "country": "Regno Unito",
     "lat": 52.8306,
     "lng": -1.37528,
     "alt": "\\N",
@@ -533,7 +533,7 @@ static lista=[
     "circuitRef": "rodriguez",
     "name": "Autódromo Hermanos Rodríguez", //
     "location": "Mexico City",
-    "country": "Mexico",
+    "country": "Messico",
     "lat": 19.4042,
     "lng": -99.0907,
     "alt": "\\N",
@@ -567,7 +567,7 @@ static lista=[
     "circuitRef": "ricard", //
     "name": "Circuit Paul Ricard",
     "location": "Le Castellet",
-    "country": "France",
+    "country": "Francia",
     "lat": 43.2506,
     "lng": 5.79167,
     "alt": "\\N",
@@ -584,7 +584,7 @@ static lista=[
     "circuitRef": "yeongam",
     "name": "Korean International Circuit", //
     "location": "Yeongam County",
-    "country": "Korea",
+    "country": "Korea del Sud",
     "lat": 34.7333,
     "lng": 126.417,
     "alt": "\\N",
@@ -601,7 +601,7 @@ static lista=[
     "circuitRef": "jacarepagua", //
     "name": "Autódromo Internacional Nelson Piquet",
     "location": "Rio de Janeiro",
-    "country": "Brazil",
+    "country": "Brasile",
     "lat": -22.9756,
     "lng": -43.395,
     "alt": "\\N",
@@ -635,7 +635,7 @@ static lista=[
     "circuitRef": "brands hatch", //
     "name": "Brands Hatch",
     "location": "Kent",
-    "country": "UK",
+    "country": "Regno unito",
     "lat": 51.3569,
     "lng": 0.263056,
     "alt": "\\N",
@@ -652,7 +652,7 @@ static lista=[
     "circuitRef": "zandvoort", //
     "name": "Circuit Park Zandvoort",
     "location": "Zandvoort",
-    "country": "Netherlands",
+    "country": "Olanda",
     "lat": 52.3888,
     "lng": 4.54092,
     "alt": "\\N",
@@ -669,7 +669,7 @@ static lista=[
     "circuitRef": "zolder", //
     "name": "Zolder",
     "location": "Heusden-Zolder",
-    "country": "Belgium",
+    "country": "Belgio",
     "lat": 50.9894,
     "lng": 5.25694,
     "alt": "\\N",
@@ -686,7 +686,7 @@ static lista=[
     "circuitRef": "dijon", //
     "name": "Dijon-Prenois",
     "location": "Dijon",
-    "country": "France",
+    "country": "Francia",
     "lat": 47.3625,
     "lng": 4.89913,
     "alt": "\\N",
@@ -754,7 +754,7 @@ static lista=[
     "circuitRef": "jarama", //
     "name": "Jarama",
     "location": "Madrid",
-    "country": "Spain",
+    "country": "Spagna",
     "lat": 40.6171,
     "lng": -3.58558,
     "alt": "\\N",
@@ -788,7 +788,7 @@ static lista=[
     "circuitRef": "anderstorp", //
     "name": "Scandinavian Raceway",
     "location": "Anderstorp",
-    "country": "Sweden",
+    "country": "Svezia",
     "lat": 57.2653,
     "lng": 13.6042,
     "alt": "\\N",
@@ -822,7 +822,7 @@ static lista=[
     "circuitRef": "montjuic", //
     "name": "Montjuïc",
     "location": "Barcelona",
-    "country": "Spain",
+    "country": "Spagna",
     "lat": 41.3664,
     "lng": 2.15167,
     "alt": "\\N",
@@ -839,7 +839,7 @@ static lista=[
     "circuitRef": "nivelles",
     "name": "Nivelles-Baulers", //
     "location": "Brussels",
-    "country": "Belgium",
+    "country": "Belgio",
     "lat": 50.6211,
     "lng": 4.32694,
     "alt": "\\N",
@@ -856,7 +856,7 @@ static lista=[
     "circuitRef": "charade", //
     "name": "Charade Circuit",
     "location": "Clermont-Ferrand",
-    "country": "France",
+    "country": "Francia",
     "lat": 45.7472,
     "lng": 3.03889,
     "alt": "\\N",
@@ -890,7 +890,7 @@ static lista=[
     "circuitRef": "essarts", //
     "name": "Rouen-Les-Essarts",
     "location": "Rouen",
-    "country": "France",
+    "country": "Francia",
     "lat": 49.3306,
     "lng": 1.00458,
     "alt": "\\N",
@@ -907,7 +907,7 @@ static lista=[
     "circuitRef": "lemans", //
     "name": "Le Mans",
     "location": "Le Mans",
-    "country": "France",
+    "country": "Francia",
     "lat": 47.95,
     "lng": 0.224231,
     "alt": "\\N",
@@ -925,7 +925,7 @@ static lista=[
     "circuitRef": "reims", //
     "name": "Reims-Gueux",
     "location": "Reims",
-    "country": "France",
+    "country": "Francia",
     "lat": 49.2542,
     "lng": 3.93083,
     "alt": "\\N",
@@ -942,7 +942,7 @@ static lista=[
     "circuitRef": "george", //
     "name": "Prince George Circuit",
     "location": "Eastern Cape Province",
-    "country": "South Africa",
+    "country": "Sud Africa",
     "lat": -33.0486,
     "lng": 27.8736,
     "alt": "\\N",
@@ -976,7 +976,7 @@ static lista=[
     "circuitRef": "aintree", //
     "name": "Aintree",
     "location": "Liverpool",
-    "country": "UK",
+    "country": "Regno Unito",
     "lat": 53.4769,
     "lng": -2.94056,
     "alt": "\\N",
@@ -993,7 +993,7 @@ static lista=[
     "circuitRef": "boavista", //
     "name": "Circuito da Boavista",
     "location": "Oporto",
-    "country": "Portugal",
+    "country": "Portogallo",
     "lat": 41.1705,
     "lng": -8.67325,
     "alt": "\\N",
@@ -1027,7 +1027,7 @@ static lista=[
     "circuitRef": "avus", //
     "name": "AVUS",
     "location": "Berlin",
-    "country": "Germany",
+    "country": "Germania",
     "lat": 52.4806,
     "lng": 13.2514,
     "alt": "\\N",
@@ -1044,7 +1044,7 @@ static lista=[
     "circuitRef": "monsanto", //
     "name": "Monsanto Park Circuit",
     "location": "Lisbon",
-    "country": "Portugal",
+    "country": "Portogallo",
     "lat": 38.7197,
     "lng": -9.20306,
     "alt": "\\N",
@@ -1078,7 +1078,7 @@ static lista=[
     "circuitRef": "ain diab", //
     "name": "Ain Diab",
     "location": "Casablanca",
-    "country": "Morocco",
+    "country": "Marocco",
     "lat": 33.5786,
     "lng": -7.6875,
     "alt": "\\N",
@@ -1095,7 +1095,7 @@ static lista=[
     "circuitRef": "pescara", //
     "name": "Pescara Circuit",
     "location": "Pescara",
-    "country": "Italy",
+    "country": "Italia",
     "lat": 42.475,
     "lng": 14.1508,
     "alt": "\\N",
@@ -1112,7 +1112,7 @@ static lista=[
     "circuitRef": "bremgarten", //
     "name": "Circuit Bremgarten",
     "location": "Bern",
-    "country": "Switzerland",
+    "country": "Svizzera",
     "lat": 46.9589,
     "lng": 7.40194,
     "alt": "\\N",
@@ -1129,7 +1129,7 @@ static lista=[
     "circuitRef": "pedralbes", //
     "name": "Circuit de Pedralbes",
     "location": "Barcelona",
-    "country": "Spain",
+    "country": "Spagna",
     "lat": 41.3903,
     "lng": 2.11667,
     "alt": "\\N",
@@ -1267,7 +1267,7 @@ static lista=[
     "circuitRef": "portimao", //
     "name": "Autódromo Internacional do Algarve",
     "location": "Portimão",
-    "country": "Portugal",
+    "country": "Portogallo",
     "lat": 37.227,
     "lng": -8.6267,
     "alt": "\\N",
@@ -1285,7 +1285,7 @@ static lista=[
     "circuitRef": "mugello", //
     "name": "Autodromo Internazionale del Mugello",
     "location": "Mugello",
-    "country": "Italy",
+    "country": "Italia",
     "lat": 43.9975,
     "lng": 11.3719,
     "alt": "\\N",
@@ -1302,7 +1302,7 @@ static lista=[
     "circuitRef": "jeddah",
     "name": "Jeddah Street Circuit",
     "location": "Jeddah",
-    "country": "Saudi Arabia",
+    "country": "Arabia Saudita",
     "lat": 21.5433,
     "lng": 39.1728,
     "alt": "\\N",
