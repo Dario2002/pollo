@@ -7,6 +7,7 @@ import { ChangeDetectionStrategy } from '@angular/compiler/src/core';
 import { Marker } from '../models/marker.model';
 import { icon, Map, latLng, marker, polyline, tileLayer } from 'leaflet';
 import * as L from 'leaflet';
+import { isDefined } from '@angular/compiler/src/util';
 
 @Component({
   selector: 'app-leaflet',
@@ -39,10 +40,7 @@ export class LeafletComponent implements OnInit {
   }
 
   constructor(private formBuilder: FormBuilder) { }
-  iconCircuito: Marker;
-  iconPilota: Marker;
-  iconScuderia: Marker;
-  markerList = new Array<L.Marker<any>>()
+
 
   // Define our base layers so we can reference them multiple times
   streetMaps = tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -91,6 +89,13 @@ export class LeafletComponent implements OnInit {
 
   submitCircuito() {
 
+
+    if(this.iconacircuito != undefined)
+    {
+      console.log(this.iconacircuito);
+      this.iconacircuito.removeFrom(this.map);
+    }
+
     let data = this.circuitoForm.value;
     let a;
     let circuito;
@@ -128,6 +133,11 @@ export class LeafletComponent implements OnInit {
     let data = this.pilotaForm.value;
     let a;
 
+    if(this.iconapilota != undefined)
+    {
+      console.log(this.iconapilota);
+      this.iconapilota.removeFrom(this.map);
+    }
 
 
     for (a in Piloti.listaPil) {
@@ -170,7 +180,11 @@ export class LeafletComponent implements OnInit {
     let data = this.scuderiaForm.value;
     let a;
 
-
+    if(this.iconascuderia != undefined)
+    {
+      console.log(this.iconascuderia);
+      this.iconascuderia.removeFrom(this.map);
+    }
 
     for (a in Scuderie.listascud) {
       console.log(Scuderie.listascud[a]['constructorRef'] );
@@ -208,12 +222,7 @@ export class LeafletComponent implements OnInit {
   }
   //this.map.removeLayer(markers);
 
-  SubmitRefresh(){
-    this.map.eachLayer((layer) => {
-    layer.remove();
 
-  });
-  }
 
 
   ngOnInit(): void {
