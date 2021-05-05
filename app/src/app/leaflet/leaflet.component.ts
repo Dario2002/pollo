@@ -42,6 +42,7 @@ export class LeafletComponent implements OnInit {
   iconCircuito: Marker;
   iconPilota: Marker;
   iconScuderia: Marker;
+  markerList = new Array<L.Marker<any>>()
 
   // Define our base layers so we can reference them multiple times
   streetMaps = tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -99,27 +100,19 @@ export class LeafletComponent implements OnInit {
       if (Circuiti.lista[a]['circuitRef'] == data.nome) {
         this.chosen = false;
         let circuitoScelto = Circuiti.lista[a];
-
         this.iconacircuito = marker([circuitoScelto['lat'], circuitoScelto['lng']], {
           icon: icon({
             iconSize: [80, 80],
             iconAnchor: [40, 40],
             iconUrl: 'assets/img/bandierina.png',
             iconRetinaUrl: 'assets/img/bandierina.png'
-
             //shadowUrl: 'assets/img/bandierina.png'
-
           })
-
         })
 
           this.iconacircuito.addTo(this.map);
 
-
-
-
         this.map.panTo(new L.LatLng( circuitoScelto['lat'], circuitoScelto['lng']));
-
 
         console.log(circuito);
 

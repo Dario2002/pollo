@@ -499,7 +499,7 @@ static lista=[
     "circuitRef": "kyalami", //
     "name": "Kyalami",
     "location": "Midrand",
-    "country": "Sud Africa",
+    "country": "Sudafrica",
     "lat": -25.9894,
     "lng": 28.0767,
     "alt": "\\N",
@@ -942,7 +942,7 @@ static lista=[
     "circuitRef": "george", //
     "name": "Prince George Circuit",
     "location": "Eastern Cape Province",
-    "country": "Sud Africa",
+    "country": "Sudafrica",
     "lat": -33.0486,
     "lng": 27.8736,
     "alt": "\\N",
@@ -1223,8 +1223,8 @@ static lista=[
     "Lunghezza":    "5200 m",
     "Curve":    19,
     "Inaugurazione":    2021,
-    "TempoRecord":  "   Not Any",
-    "Detentore": "Not Any",
+    "TempoRecord":  "Nessuno",
+    "Detentore": "Nessuno",
     "image": "https://image.routeyou.com/shrink/fit/400x300/ef2fbc340ffe5d6bd70fc8865bb1959c_a4fbe299dc1050547257590f88dc3f1a9c6b9132.jpg"
   },
   {
@@ -1258,8 +1258,8 @@ static lista=[
     "Lunghezza":    "   5613 m",
     "Curve":    23,
     "Inaugurazione":    2021,
-    "TempoRecord":  "   Not Any",
-    "Detentore": "Not Any",
+    "TempoRecord":  "Nessuno",
+    "Detentore": "Nessuno",
     "image": "https://e0.365dm.com/20/03/1600x900/skysports-vietnam-gp-2020-hanoi_4944625.jpg"
   },
   {
@@ -1310,8 +1310,8 @@ static lista=[
     "Lunghezza":    "   6175 m",
     "Curve":    27,
     "Inaugurazione":    2021,
-    "TempoRecord":  "   Not Any",
-    "Detentore": "Not Any",
+    "TempoRecord":  "Nessuno",
+    "Detentore": "Nessuno",
     "image": "https://cdn-autosprint.corrieredellosport.it/images/2020/11/20/145242843-f5585622-10b6-4bea-a8cd-8f81ba6b5ae6.jpg"
   }
 ]
