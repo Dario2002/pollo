@@ -24,6 +24,7 @@
     "@asymmetrik/ngx-leaflet": "^8.1.0",
     "@ng-bootstrap/ng-bootstrap": "^9.1.0",
     "angular-google-maps": "^2.4.1",
+    "bcryptjs": "^2.4.3",
     "bootstrap": "^4.5.0",
     "google": "^2.1.0",
     "leaflet": "^1.7.1",

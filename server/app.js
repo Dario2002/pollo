@@ -1,44 +1,21 @@
 var express = require('express');
+var path = require('path');
+var cookieParser = require('cookie-parser');
+var logger = require('morgan');
+var cors = require('cors');
 
-var router = express.Router();
+var indexRouter = require('./routes/index');
 
-const MongoClient = require('mongodb').MongoClient;
-const uri = 'mongodb+srv://dbanfi:dbanfi@cluster0.wbjdm.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+var app = express();
 
-/* POST */
-router.post('/', function(req, res) {
-    var username = req.body.username;
-    var pwd = req.body.pwd;
+app.use(logger('dev'));
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
+app.use(cookieParser());
+app.use(express.static(path.join(__dirname, 'public')));
 
-    const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
-    client.connect(err => {
-        var len;
-        const collection = client.db("progetto").collection("users");
-        collection.find({ 'username': `${username}` }).toArray((err, result) => {
-            if (err) console.log(err.message);
-            else {
-                len = result.length;
-                if(len == 1) {
-                    client.close();
-                    res.send({ status: "existing_user" });
-                }
-            }
-        });
+app.use(new cors());
 
-        if (len != 1) {
-            var myobj = { username: `${username}`, password: `${pwd}` };
-            collection.insertOne(myobj, function(err, res) {
-                if (err) throw err;
-                console.log(`Utente ${username}registrato correttamente!`);
-            });
+app.use('/', indexRouter);
 
-            setTimeout(function () {
-                res.send({ status: "done" });
-                client.close();
-            }, 500);
-        }
-    });
-
-});
-
-module.exports = router;
+module.exports = app;

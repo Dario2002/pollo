@@ -1,0 +1,40 @@
+<div class="container-fluid bg" [style.height.px]="height">
+
+<br><br><br><br><br><br><br>
+
+  <div class="row d-none d-lg-block">
+
+    <div class="col-5 mx-auto">
+
+      <h1 class="text-light text-center">Register! It's quick and easy!</h1>
+
+      <form [formGroup]="registrationForm" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+          <label class="text-light" for="username">Username</label>
+          <input class="form-control" id="username" placeholder="Insert a username" type="text" formControlName="username" required>
+        </div>
+
+        <div class="form-group">
+          <label class="text-light" for="password1">Password</label>
+          <input #pwd class="form-control" id="password" placeholder="Insert your password" type="password" formControlName="password" required>
+        </div>
+
+        <div class="form-group">
+          <label class="text-light" for="confirmPassword">Confirm Password</label>
+          <input #confirmPwd class="form-control" id="confirmPassword" placeholder="Confirm your password" type="password" formControlName="confirmPassword" required>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Register</button>
+
+      </form>
+
+      <br>
+
+      <p #success class="text-danger rounded p-2 bg-label-danger" *ngIf="result == 4"><b>Registration failed!</b> Insert the same password</p>
+      <p #success class="text-success rounded p-2 bg-label-success" *ngIf="result == 3"><b>Registration succedeed!</b> Try to log in</p>
+      <p #alreadyRegistered class="text-danger rounded p-2 bg-label-danger" *ngIf="result == 2"><b>Registration failed!</b> Username already registered</p>
+      <p #missingValues class="text-danger rounded p-2 bg-label-danger" *ngIf="result == 1"><b>Registration failed!</b> You might complete the entire form</p>
+
+    </div>
+
+  </div>

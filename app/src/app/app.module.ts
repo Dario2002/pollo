@@ -14,6 +14,9 @@ import { CircuitiComponent } from './circuiti/circuiti.component';
 import { GareComponent } from './gare/gare.component';
 import { LeafletModule } from '@asymmetrik/ngx-leaflet';
 import { LeafletComponent } from './leaflet/leaflet.component';
+import { RegisterComponent } from './register/register.component';
+import { LoginComponent } from './login/login.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,9 @@ import { LeafletComponent } from './leaflet/leaflet.component';
     ScuderieComponent,
     CircuitiComponent,
     GareComponent,
-    LeafletComponent
+    LeafletComponent,
+    RegisterComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
@@ -33,7 +38,8 @@ import { LeafletComponent } from './leaflet/leaflet.component';
     ReactiveFormsModule,
     AgmCoreModule.forRoot({apiKey: 'AIzaSyBOtW-5KsaDrzQ41dtkFjPceCEu6Ny-B-s'}),
     NgbModule,
-    LeafletModule
+    LeafletModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
