@@ -114,6 +114,9 @@ export class LeafletComponent implements OnInit {
             //shadowUrl: 'assets/img/bandierina.png'
           })
         })
+          this.iconacircuito.bindPopup(
+            "NAZIONALITÀ: {{pilota.nationality}}"
+          );
 
           this.iconacircuito.addTo(this.map);
 
