@@ -1,1 +1,30 @@
-<p>gare works!</p>
+<br><br><br>
+<div class="container border ">
+  <br>
+  <div class="row">
+
+      <form class="ml-4" [formGroup]="searchForm" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+          <label class="text-light" for="year">Year</label>
+          <input class="form-control" id="year" placeholder="Insert a year" type="text" formControlName="year" required>
+        </div>
+
+        <button type="submit" class="btn btn-danger">Search</button>
+        <br><br>
+      </form>
+
+      <div class="container-fluid text-center">
+
+        <div *ngFor="let s of searched">
+          <div class="bg-primary">
+            {{s.name}}
+            {{s.date}}
+          </div>
+          <br>
+        </div>
+
+      </div>
+
+  </div>
+</div>
+<br><br>

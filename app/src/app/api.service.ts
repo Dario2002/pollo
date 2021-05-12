@@ -7,7 +7,7 @@ import * as bcrypt from 'bcryptjs';
 })
 export class ApiService {
 
-  url = 'https://3000-bronze-sheep-v2awktol.ws-eu03.gitpod.io/';
+  url = 'https://3000-fuchsia-bonobo-fixby7pv.ws-eu04.gitpod.io/';
   salt = "$2a$10$Zbuw7MUyyijfl/PsltUuHu";
   loggedin = false;
 
@@ -31,6 +31,22 @@ export class ApiService {
     body = body.set('pwd', pwd);
 
     let content = this.http.post(url, body, { headers: myheader });
+
+    return content;
+  }
+
+  getRaces() {
+    let url = `${this.url}races`;
+
+    let content = this.http.get(url);
+
+    return content;
+  }
+
+  getRacesByYear(y:number) {
+    let url = `${this.url}anno/${y}`;
+
+    let content = this.http.get(url);
 
     return content;
   }
