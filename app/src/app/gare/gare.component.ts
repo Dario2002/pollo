@@ -17,7 +17,6 @@ export class GareComponent implements OnInit {
   ngOnInit(){
     this.api.getRaces().subscribe(data=>{
       this.races=data;
-      console.log();
     });
 
   }
@@ -27,9 +26,9 @@ constructor(private api: ApiService, private formBuilder: FormBuilder){ }
 onSubmit() {
   let data = this.searchForm.value;
 
-  this.api.getRacesByYear(data.year).subscribe((data) => {
-    this.searched = data;
-    console.log(data);
+  this.api.getRacesByYear(data.year).subscribe((d1) => {
+    this.searched = d1;
+    console.log(d1);
   });
 
   this.searchForm.reset();

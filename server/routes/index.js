@@ -26,6 +26,35 @@ router.get('/login/:username', function (req, res, next) {
     
 });
 
+router.get('/races', function (req, res, next) {
+    
+    const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
+    client.connect(err => {
+        const collection = client.db("progetto").collection("races");
+        collection.find().toArray((err, result) => {
+            if (err) console.log(err.message);
+            else { res.send(result); }
+            client.close();
+        });
+    });
+    
+});
+
+router.get('/anno/:y', function (req, res, next) {
+    var y = req.params.y;
+    
+    const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
+    client.connect(err => {
+        const collection = client.db("progetto").collection("races");
+        collection.find({ 'year': parseInt(y) }).toArray((err, result) => {
+            if (err) console.log(err.message);
+            else { res.send(result); }
+            client.close();
+        });
+    });
+    
+});
+
 /* POST */
 router.post('/register', function(req, res) {
     var username = req.body.username;
