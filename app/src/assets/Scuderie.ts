@@ -10,9 +10,9 @@ export class Scuderie
     "Base": "Brackley",
     "Country": "Regno Unito",
     "WorldChampionships": 7,
-    "HighestRaceFinish": "1(x107)",
-    "Pole Positions": 119,
-    "FastestLaps": 77,
+    "HighestRaceFinish": "1(x109)",
+    "PolePositions": 121,
+    "FastestLaps": 78,
     "CurrentPilots": "Lewis Hamilton, Valtteri Bottas",
     "lat": 52.0278,
     "lng": -1.14291
