@@ -119,7 +119,9 @@ export class LeafletComponent implements OnInit {
             `
             ${circuitoScelto.name} <br>
             <img src="${circuitoScelto.image}" width="200" height="100"> <br><br>
-            NAZIONALITÀ: ${circuitoScelto.country} <br>
+            LOCALITÀ: ${circuitoScelto.location}<br>
+            NAZIONE: ${circuitoScelto.country} <br>
+            LUNGHEZZA: ${circuitoScelto.Lunghezza}<br>
             CURVE: ${circuitoScelto.Curve} <br>
             INAUGURAZIONE: ${circuitoScelto.Inaugurazione} <br>
             TEMPO RECORD: ${circuitoScelto.TempoRecord} <br>
@@ -176,11 +178,17 @@ export class LeafletComponent implements OnInit {
             ${pilotaScelto.firstName} ${pilotaScelto.lastName} <br>
             <img src="${pilotaScelto.image}" width="175" height="175"> <br><br>
             NAZIONALITÀ: ${pilotaScelto.nationality} <br>
-            DATA DI NASCITA: ${pilotaScelto.dateOfBirth} <br>
             LUOGO DI NASCITA: ${pilotaScelto.placeOfBirth} <br>
-            CAMPIONE DEL MONDO: ${pilotaScelto.championshipsWon} <br>
+            DATA DI NASCITA: ${pilotaScelto.dateOfBirth} <br>
+            AUTO: ${pilotaScelto.car}<br>
             NUMERO: ${pilotaScelto.number} <br>
-            SCUDERIA: ${pilotaScelto.car} <br>
+            PODI: ${pilotaScelto.podiums}<br>
+            POLE POSITIONS:${pilotaScelto.polePosition}<br>
+            GP SVOLTI:${pilotaScelto.participatingGPs}<br>
+            POSIZIONE MASSIMA OTTENUTA: ${pilotaScelto.highestposGPs}<br>
+            PUNTI OTTENUTI: ${pilotaScelto.earnedPoint}<br>
+            CAMPIONATI VINTI: ${pilotaScelto.championshipsWon} <br>
+
             `
           );
 
@@ -236,9 +244,12 @@ export class LeafletComponent implements OnInit {
             <img src="${scuderiaScelto.image}" width="175" height="175"> <br><br>
             ANNO DI ENTRATA: ${scuderiaScelto.firstTeamEntry} <br>
             BASE: ${scuderiaScelto.Base} <br>
-            LUOGO DI NASCITA: ${scuderiaScelto.Country} <br>
+            NAZIONE:${scuderiaScelto.Country}<br>
             TITOLI COSTRUTTORI: ${scuderiaScelto.WorldChampionships} <br>
-            PILOTI: ${scuderiaScelto.CurrentPilots} <br>
+            POSIZIONE PIÙ ALTA RAGGIUNTA:${scuderiaScelto.HighestRaceFinish}<br>
+            POLE POSITIONS:${scuderiaScelto.PolePositions}<br>
+            GIRI PIÙ VELOCI:${scuderiaScelto.FastestLaps}<br>
+            PILOTI ATTUALI: ${scuderiaScelto.CurrentPilots} <br>
             `
           );
 

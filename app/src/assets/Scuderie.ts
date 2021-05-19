@@ -21,7 +21,7 @@ export class Scuderie
     "constructorId": 2,
     "constructorRef": "red bull",
     "name": "Red Bull Racing Honda",
-    "image":"http://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c1e8.png",
+    "image":"https://www.profumoroma.com/wp-content/uploads/2018/07/580b57fcd9996e24bc43c1e8.png",
     "firstTeamEntry": 1997,
     "Base": "Milton Keynes",
     "Country": "Regno Unito",
