@@ -115,7 +115,16 @@ export class LeafletComponent implements OnInit {
           })
         })
           this.iconacircuito.bindPopup(
-            "NAZIONALITÀ: {{pilota.nationality}}"
+
+            `
+            ${circuitoScelto.name} <br>
+            <img src="${circuitoScelto.image}" width="200" height="100"> <br><br>
+            NAZIONALITÀ: ${circuitoScelto.country} <br>
+            CURVE: ${circuitoScelto.Curve} <br>
+            INAUGURAZIONE: ${circuitoScelto.Inaugurazione} <br>
+            TEMPO RECORD: ${circuitoScelto.TempoRecord} <br>
+            DETENTORE: ${circuitoScelto.Detentore} <br>
+            `
           );
 
           this.iconacircuito.addTo(this.map);
@@ -161,7 +170,19 @@ export class LeafletComponent implements OnInit {
 
           })
         })
+        this.iconapilota.bindPopup(
 
+            `
+            ${pilotaScelto.firstName} ${pilotaScelto.lastName} <br>
+            <img src="${pilotaScelto.image}" width="175" height="175"> <br><br>
+            NAZIONALITÀ: ${pilotaScelto.nationality} <br>
+            DATA DI NASCITA: ${pilotaScelto.dateOfBirth} <br>
+            LUOGO DI NASCITA: ${pilotaScelto.placeOfBirth} <br>
+            CAMPIONE DEL MONDO: ${pilotaScelto.championshipsWon} <br>
+            NUMERO: ${pilotaScelto.number} <br>
+            SCUDERIA: ${pilotaScelto.car} <br>
+            `
+          );
 
           this.iconapilota.addTo(this.map);
 
@@ -208,6 +229,18 @@ export class LeafletComponent implements OnInit {
           })
         })
 
+          this.iconascuderia.bindPopup(
+
+            `
+            ${scuderiaScelto.name}  <br>
+            <img src="${scuderiaScelto.image}" width="175" height="175"> <br><br>
+            ANNO DI ENTRATA: ${scuderiaScelto.firstTeamEntry} <br>
+            BASE: ${scuderiaScelto.Base} <br>
+            LUOGO DI NASCITA: ${scuderiaScelto.Country} <br>
+            TITOLI COSTRUTTORI: ${scuderiaScelto.WorldChampionships} <br>
+            PILOTI: ${scuderiaScelto.CurrentPilots} <br>
+            `
+          );
 
           this.iconascuderia.addTo(this.map);
 
