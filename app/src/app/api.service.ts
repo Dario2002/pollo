@@ -7,7 +7,7 @@ import * as bcrypt from 'bcryptjs';
 })
 export class ApiService {
 
-  url = 'https://3000-aquamarine-possum-2i43olpq.ws-eu04.gitpod.io/';
+  url = 'https://3000-maroon-alligator-92mlog7v.ws-eu07.gitpod.io/';
   salt = "$2a$10$Zbuw7MUyyijfl/PsltUuHu";
   loggedin = false;
 

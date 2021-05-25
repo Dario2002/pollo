@@ -14,6 +14,8 @@ export class Scuderie
     "PolePositions": 121,
     "FastestLaps": 78,
     "CurrentPilots": "Lewis Hamilton, Valtteri Bottas",
+    "produttori": " Qualcomm  ",
+    "quali": " sensori aereodinamici, sensori wireless ",
     "lat": 52.0278,
     "lng": -1.14291
   },
@@ -30,6 +32,8 @@ export class Scuderie
     "PolePositions": 64,
     "FastestLaps": 68,
     "CurrentPilots": "Max Verstappen, Sergio Perez",
+    "produttori": "AT&T",
+    "quali": " sensori MAP e MAF e PCM, sensori wireless ",
     "lat": 52.0401,
     "lng": -0.75927
   },
@@ -46,6 +50,8 @@ export class Scuderie
     "PolePositions": 155,
     "FastestLaps": 158,
     "CurrentPilots": "Daniel Ricciardo, Lando Norris",
+    "produttori": " McLaren Electronic Systems  ",
+    "quali": " Sensori MAP e MAF ",
     "lat": 51.3164,
     "lng": -0.56066
   },
@@ -62,6 +68,8 @@ export class Scuderie
     "PolePositions": 221,
     "FastestLaps": 253,
     "CurrentPilots": "Charles Leclerc, Carlos Sainz",
+    "produttori": "NGK ",
+    "quali": " sensori di temperatura, sensori MAF e MAP ",
     "lat": 44.5266,
     "lng": 10.8674
   },
@@ -94,6 +102,8 @@ export class Scuderie
     "PolePositions": 1,
     "FastestLaps": "Nessuno",
     "CurrentPilots": "Sebastian Vettel, Lance Stroll",
+    "produttori": "AT&T ",
+    "quali": " sensori per la sciurezza",
     "lat": 52.0913,
     "lng": -1.02836
   },
@@ -158,6 +168,8 @@ export class Scuderie
     "PolePositions": "Nessuna",
     "FastestLaps": 2,
     "CurrentPilots": "Mick Schumacher, Nikita Mazepin",
+    "produttori": "Dallara auto",
+    "quali": "sensori aereodinamici",
     "lat": 35.4863,
     "lng": -80.6228
   }
