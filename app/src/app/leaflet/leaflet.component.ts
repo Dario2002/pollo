@@ -8,6 +8,7 @@ import { Marker } from '../models/marker.model';
 import { icon, Map, latLng, marker, polyline, tileLayer } from 'leaflet';
 import * as L from 'leaflet';
 import { isDefined } from '@angular/compiler/src/util';
+import { ApiService } from '../api.service';
 
 @Component({
   selector: 'app-leaflet',
@@ -30,6 +31,11 @@ export class LeafletComponent implements OnInit {
   scuderiaForm = this.formBuilder.group({
     nome: ''
   });
+
+  trovaForm = this.formBuilder.group({
+    nome: ''
+  });
+
   circuito: any = null;
 
 
@@ -39,7 +45,8 @@ export class LeafletComponent implements OnInit {
    this.map = map;
   }
 
-  constructor(private formBuilder: FormBuilder) { }
+  constructor(private formBuilder: FormBuilder,
+    private api: ApiService) { }
 
 
   // Define our base layers so we can reference them multiple times
@@ -268,7 +275,29 @@ export class LeafletComponent implements OnInit {
 
   }
   //this.map.removeLayer(markers);
+  submitTrova(){
+    let data = this.trovaForm.value;
+    let coords;
+    this.api.getCoords(data.nome).subscribe((data)=>{
+      coords = data["results"][0]["geometry"];
+      let c = this.api.getNearest(coords["lat"], coords["lng"]);
+      console.log(c);
+      this.iconacircuito = marker([c['lat'], c['lng']], {
+          icon: icon({
+            iconSize: [80, 80],
+            iconAnchor: [40, 40],
+            iconUrl: 'assets/img/bandierina.png',
+            iconRetinaUrl: 'assets/img/bandierina.png'
+            //shadowUrl: 'assets/img/bandierina.png'
+          })
+        })
 
+
+          this.iconacircuito.addTo(this.map);
+      this.map.panTo(new L.LatLng( c['lat'], c['lng']));
+    });
+    this.trovaForm.reset();
+  }
 
 
 

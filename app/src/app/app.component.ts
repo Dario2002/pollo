@@ -16,6 +16,7 @@ export class AppComponent implements OnInit {
       this.api.setLogStatus(true);
     }
     this.refreshLogStatus();
+    this.api.getCircuits();
   }
 
   public refreshLogStatus(): void {
