@@ -7,7 +7,7 @@ height: 100%;
 body
 {
   height: 100%;
-  background: url('https://i.redd.it/9ejezlefvg701.jpg') no-repeat center center fixed;
+  background: url('https://images.hdqwalls.com/wallpapers/f1-game-2020-os.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -16,8 +16,9 @@ body
 
 
 .container {
-background :rgba(255,255,255,0.3);
+background :rgba(87, 87, 87, 0.712);
 margin-top: 25px;
+border-radius:10px;
 
 }
 
