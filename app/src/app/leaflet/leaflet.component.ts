@@ -292,9 +292,25 @@ export class LeafletComponent implements OnInit {
           })
         })
 
+        this.iconacircuito.bindPopup(
+
+            `
+            ${c.name} <br>
+            <img src="${c.image}" width="200" height="100"> <br><br>
+            LOCALITÀ: ${c.location}<br>
+            NAZIONE: ${c.country} <br>
+            LUNGHEZZA: ${c.Lunghezza}<br>
+            CURVE: ${c.Curve} <br>
+            INAUGURAZIONE: ${c.Inaugurazione} <br>
+            TEMPO RECORD: ${c.TempoRecord} <br>
+            DETENTORE: ${c.Detentore} <br>
+            `
+          );
+
 
           this.iconacircuito.addTo(this.map);
-      this.map.panTo(new L.LatLng( c['lat'], c['lng']));
+        this.map.panTo(new L.LatLng( c['lat'], c['lng']));
+        this.chosen = true;
     });
     this.trovaForm.reset();
   }
