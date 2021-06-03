@@ -18,14 +18,14 @@
           <br>
 
           <form [formGroup]="circuitoForm" (ngSubmit)="submitCircuito()">
-          <input class="form-control" id="circuitRef" placeholder="Inserisci il nome di un circuito" type="text" formControlName="nome" required>
+          <input class="form-control" id="circuitRef" placeholder="Digita un circuito" type="text" formControlName="nome" required>
           &nbsp;
           <button type="submit" class="btn btn-danger">Search</button>
 
           </form>
           <br><br>
           <form [formGroup]="pilotaForm" (ngSubmit)="submitPilota()">
-          <input class="form-control" id="driverRef" placeholder="Inserisci il nome di un pilota" type="text" formControlName="nome" required>
+          <input class="form-control" id="driverRef" placeholder="Digita un pilota" type="text" formControlName="nome" required>
           &nbsp;
           <button type="submit" class="btn btn-danger">Search</button>
 
@@ -33,14 +33,14 @@
 
           <br><br>
           <form [formGroup]="scuderiaForm" (ngSubmit)="submitScuderia()">
-          <input class="form-control" id="constructorRef" placeholder="Inserisci il nome di una scuderia" type="text" formControlName="nome" required>
+          <input class="form-control" id="constructorRef" placeholder="Digita una scuderia" type="text" formControlName="nome" required>
           &nbsp;
           <button type="submit" class="btn btn-danger">Search</button>
           </form>
 
           <br><br>
           <form [formGroup]="trovaForm" (ngSubmit)="submitTrova()">
-          <input class="form-control" id="circuitRef" placeholder="Inserisci il nome di una città" type="text" formControlName="nome" required>
+          <input class="form-control" id="circuitRef" placeholder="Digita il nome di una città" type="text" formControlName="nome" required>
           &nbsp;
           <button type="submit" class="btn btn-danger">Search</button>
           </form>
