@@ -3,6 +3,7 @@ import * as bcrypt from "bcryptjs";
 import { Observable } from 'rxjs';
 import { ApiService } from '../api.service';
 import { FormBuilder } from '@angular/forms';
+import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -28,7 +29,9 @@ export class LoginComponent {
 
   constructor(
     private api: ApiService,
-    private formBuilder: FormBuilder) {  }
+    private formBuilder: FormBuilder,
+    private router: Router,
+    private route: ActivatedRoute) {  }
 
   onSubmit(): void {
     let data = this.loginForm.value;
@@ -44,8 +47,8 @@ export class LoginComponent {
         if (bcrypt.compareSync(data.password, content[0]["password"])) {
           this.api.setLogStatus(true);
           localStorage.setItem('token', data.username);
-          window.location.href = './home';
-        } else { this.result = 1; }
+          this.router.navigate(['../home'], { relativeTo: this.route });
+          } else { this.result = 1; }
       });
     }
 

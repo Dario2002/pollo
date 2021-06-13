@@ -2,6 +2,7 @@ import { Component, OnInit, ElementRef, ViewChild } from '@angular/core';
 import { FormBuilder } from '@angular/forms';
 import { Observable } from 'rxjs';
 import { ApiService } from '../api.service';
+import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-register',
@@ -28,7 +29,9 @@ export class RegisterComponent {
 
   constructor(
     private api: ApiService,
-    private formBuilder: FormBuilder
+    private formBuilder: FormBuilder,
+    private router: Router,
+    private route: ActivatedRoute
   ) {  }
 
   result = 0;
@@ -50,7 +53,7 @@ export class RegisterComponent {
         if (d['status'] == 'done') {
           console.log('Registrazione eseguita correttamente');
           this.result = 3;
-		  window.location.href = './login';
+		   this.router.navigate(['../login'], { relativeTo: this.route });
         } else if (d['status'] == 'existing_user'){
           console.log('Errore! Nome utente già registrato');
           this.result = 2;
