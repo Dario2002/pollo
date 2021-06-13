@@ -7,7 +7,7 @@ import * as bcrypt from 'bcryptjs';
 })
 export class ApiService {
 
-  url = 'https://3000-cyan-dove-vmwt3jkl.ws-eu08.gitpod.io/';
+  url = 'https://serverracemap.netlify.app/.netlify/functions/api/index';
   salt = "$2a$10$Zbuw7MUyyijfl/PsltUuHu";
   loggedin = false;
   circuits: any;
